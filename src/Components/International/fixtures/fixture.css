@@ -1,0 +1,260 @@
+.match-heading {
+    padding: 30px 16px 0 0;
+    margin-bottom: 14px;
+}
+
+.match-heading p {
+    margin-bottom: 0;
+}
+
+.match-heading .fixtures-head h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 1rem 0 0;
+}
+
+.match-heading .fixtures-head .tabs {
+    margin: 0 0 0 7.5rem;
+    gap: 30px;
+}
+
+.match-heading .fixtures-head .tabs .nav-item .nav-link {
+    font-weight: 900;
+    color: var(--secondary-color);
+    cursor: pointer;
+    padding: 0;
+    border-radius: 0;
+    transition: 0.2s ease-in;
+    letter-spacing: 1px;
+    opacity: .5;
+}
+
+.match-heading .fixtures-head .tabs .nav-item .nav-link:hover {
+    color: var(--match-head-nav-link-act-hov-color);
+    border-bottom: 2px solid var(--match-head-nav-link-act-hov-color);
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.fixtures-head .nav-pills .nav-item .nav-link.active,
+.fixtures-head .nav-pills .nav-item .show>.nav-link {
+    color: var(--match-head-nav-link-act-hov-color);
+    background-color: transparent;
+    border-bottom: 2px solid var(--match-head-nav-link-act-hov-color);
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.match-heading .seeall-arrow .angle-icon:first-child {
+    opacity: 0.25;
+}
+
+.match-heading .seeall-arrow .angle-icon:first-child:active {
+    opacity: 1;
+}
+
+.match-heading .seeall-arrow .angle-icon {
+    height: 22px;
+    width: 22px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.match-heading .seeall-arrow p {
+    font-size: 12px;
+    padding: 1px 0 1px 6px;
+    font-weight: 900;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.match-heading .seeall-arrow .arrow-icon {
+    color: #2e2d2d;
+    font-size: 13px;
+    border: 2px solid #2e2d2d;
+    border-radius: 50%;
+    padding: .25rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.my-fixtures {
+    font-family: "Source Sans 3", sans-serif;
+    padding-bottom: 1.85rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.my-fixtures::-webkit-scrollbar {
+    display: none;
+}
+
+.my-fixtures .text-strip {
+    width: 24px;
+    height: auto;
+    font-size: 14px;
+    font-weight: 600;
+    background: #c4a13e;
+    color: #323130;
+    padding-bottom: 10px;
+    text-align: end;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    letter-spacing: 0.5px;
+}
+
+.my-fixtures .text-strip.women {
+    background: #123f7e;
+    color: var(--primary-color);
+}
+
+.my-fixtures .text-strip.Wodi-U19 {
+    background: #b0d5ff;
+    color: var(--secondary-color);
+}
+
+.my-fixtures .card {
+    border-radius: 0 14px 14px 0;
+    width: 535px;
+    background: var(--fixtures-card-bg-color);
+    color: var(--primary-color);
+    border: 0;
+    border-bottom: var(--fixtures-card-bor-bott);
+    margin-right: 30px;
+}
+
+.my-fixtures .card-details {
+    height: 265px;
+    width: 100%;
+}
+
+.card-details .card-top {
+    text-transform: uppercase;
+    padding: 0 1rem;
+    overflow: hidden;
+    border-bottom: var(--fixtures-cardDetl-cardTop-bor-bott);
+}
+
+.card-details .card-top h4 {
+    font-size: 15px;
+    font-weight: 600;
+    overflow: hidden;
+    letter-spacing: normal;
+}
+
+.card-details .card-top p {
+    color: #b0c8e1;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card-details .card-center {
+    letter-spacing: normal;
+}
+
+.card-details .card-center .teams {
+    height: 90px;
+}
+
+.card-details .card-center .teams img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card-center .teams .vs img {
+    width: 24px;
+    height: 38px;
+}
+
+.card-center .teams b {
+    font-size: 14px;
+}
+
+.card-center .date-timing {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    line-height: 41px;
+    opacity: .8;
+}
+
+.card-center .date-timing::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../../Assets/texture.webp);
+    background-position: center;
+    background-size: 430px;
+    opacity: .1;
+}
+
+.card-bottom {
+    background-color: var(--fixtures-cardDetl-cardBott-color);
+    letter-spacing: normal;
+}
+
+.card-bottom p {
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 14px;
+}
+
+.card-bottom b {
+    flex-shrink: 0;
+    font-size: 14px;
+}
+
+.card-bottom .ti-arrow-icon {
+    font-size: 18px;
+    margin-left: -5px;
+}
+
+
+
+/* result CSS Start  */
+
+.card-center .score span {
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.card-center .score p {
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+.card-center .score p b {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color-rgba8);
+}
+
+.card-center .score p span {
+    font-size: 14px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+.card-center .result {
+    color: #ff8c4d;
+    opacity: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card-bottom span {
+    font-size: 12px;
+}
+
+.card-bottom .ground-time {
+    line-height: 10px;
+}
+
+/* Result CSS End */

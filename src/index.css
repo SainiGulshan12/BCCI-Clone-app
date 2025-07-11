@@ -1,13 +1,115 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Gothic+A1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Gothic A1", sans-serif;
+  letter-spacing: 1px;
+  color: var(--secondary-color);
+  overflow: hidden scroll;
+  background-color: var(--primary-color);
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+
+  --primary-color-rgba9: rgba(255, 255, 255, 0.9);
+  --primary-color-rgba8: rgba(255, 255, 255, 0.8);
+  --primary-color-rgba7: rgba(255, 255, 255, 0.7);
+  --primary-color-rgba6: rgba(255, 255, 255, 0.6);
+  --primary-color-rgba5: rgba(255, 255, 255, 0.5);
+  --primary-color-rgba4: rgba(255, 255, 255, 0.4);
+  --primary-color-rgba3: rgba(255, 255, 255, 0.3);
+  --primary-color-rgba2: rgba(255, 255, 255, 0.2);
+  --primary-color-rgba1: rgba(255, 255, 255, 0.1);
+
+  --secondary-color-rgba9: rgba(0, 0, 0, 0.9);
+  --secondary-color-rgba8: rgba(0, 0, 0, 0.8);
+  --secondary-color-rgba7: rgba(0, 0, 0, 0.7);
+  --secondary-color-rgba6: rgba(0, 0, 0, 0.6);
+  --secondary-color-rgba5: rgba(0, 0, 0, 0.5);
+  --secondary-color-rgba4: rgba(0, 0, 0, 0.4);
+  --secondary-color-rgba3: rgba(0, 0, 0, 0.3);
+  --secondary-color-rgba2: rgba(0, 0, 0, 0.2);
+  --secondary-color-rgba1: rgba(0, 0, 0, 0.1);
+
+
+  --nav-bg-color: #0f235a;
+  --reddish-color: #c65142;
+  --searchbar-border-bott-color: #dee2e6;
+  --desk-modal-content-bg-color: #0c101b;
+  --mob-offcanvas-bg-color: #131b33;
+  --home-sec-bg-color: #f3f5f9;
+  --home-sec-quick-link-bg-color: #a0c7ff;
+  --home-sec-quick-link-color: #123f7e;
+  --match-head-nav-link-act-hov-color: #2255a4;
+  --fixtures-card-bg-color: #262d41;
+  --fixtures-cardDetl-cardBott-color: rgba(159, 159, 159, 0.2);
+  --news-sec-sidenews-newstexth6-color: #7a7a7a;
+  --honours-sec-carousel-indi-btn-bg-color: #848484;
+  --honourscarousel-card-items-bg-color: #293b6a;
+  --honourscarousel-card-items-border-color: #728ed9;
+  --captain-sec-bg-color: #1c2336;
+  --footer-sponsor-cols-color: #d2a66c;
+  --footer-bg-color: #0a182e;
+  --footer-end-bg-color: #0d1c34;
+
+  --first-nav-left-item-bord-bott: 6px solid var(--reddish-color);
+  --first-nav-right-item-bord-left: .5px solid var(--primary-color-rgba1);
+  --fixtures-card-bor-bott: 4px solid rgb(192, 191, 191);
+  --fixtures-cardDetl-cardTop-bor-bott: 1px solid rgba(159, 159, 159, .2588);
+  
+  --mob-match-type-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .08);
+  --second-nav-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .08);
+  --home-carousel-caption-h3-text-shadow: 0px 2px 5px rgba(0, 0, 0, .4705);
+
+  --second-nav-oth-cric-info-para-linear-grad-active-color: linear-gradient(180deg, rgba(240, 216, 213, 0) 0%, rgb(240, 216, 213) 100%);
+  --home-sec-hero-bann-overlay-linear-grad-color: linear-gradient(to bottom, rgba(33, 39, 52, 0) 0%, rgb(33, 39, 52) 100%);
+  --news-sec-newsContent-coverImg-linear-grad-color: linear-gradient(to bottom, rgba(33, 39, 52, 0) 0%, rgb(33, 39, 52) 100%);
+  --captain-sec-caps-after-linear-grad-color: linear-gradient(180deg, rgba(28, 35, 54, 0) 0%, rgb(28, 35, 54) 100%);
+  --photo-sec-gallery-cont-overl-linear-grad-color: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.77) 100%);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.padding-lr {
+  padding-left: 12px;
+  padding-right: 15px;
+}
+
+.padding-tb {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bor-right {
+  border-right: 1px solid rgba(255, 255, 255, .2);
+}
+
+.bor-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.container-fluid {
+  padding-right: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+#video,
+#news,
+#fixtures,
+#ranks {
+  scroll-margin-top: 110px;
+
 }

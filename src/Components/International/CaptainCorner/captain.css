@@ -1,0 +1,155 @@
+.captainCorner-section {
+    background-color: var(--captain-sec-bg-color);
+    color: var(--primary-color);
+    padding: 40px 0 40px 15px;
+    letter-spacing: normal;
+}
+
+.captainCorner-section .heading .head h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 4px;
+    letter-spacing: 0.25px;
+}
+
+.captainCorner-section .heading .head p {
+    font-size: 12.25px;
+    margin-bottom: 8px;
+}
+
+.heading .nav-tabs {
+    border-bottom: 0;
+}
+
+.heading .nav {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+
+.heading .nav-tabs .nav-link {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    font-size: 14px;
+    border: 0;
+    color: var(--secondary-color-rgba6);
+    border-radius: 20px;
+}
+
+.heading .nav-tabs .nav-item.show .nav-link,
+.heading .nav-tabs .nav-link.active {
+    color: var(--primary-color);
+    background-color: var(--reddish-color);
+    border: 0;
+}
+
+.captainCorner-section .tab-content {
+    padding-bottom: 40px;
+}
+
+.captainCorner-section .captains-list .captains {
+    display: flex;
+    align-items: flex-end;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+    gap: 27px;
+}
+
+.captains::-webkit-scrollbar {
+    display: none;
+}
+
+.captains-list .captains .caps {
+    position: relative;
+}
+
+.captains-list .captains .caps::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 33%;
+    background: var(--captain-sec-caps-after-linear-grad-color);
+}
+
+.captains-list .captains .caps .year {
+    color: var(--primary-color-rgba6);
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.captains .caps .content.active img {
+    width: 330px;
+    height: 220px;
+}
+
+.captains .caps .content img {
+    object-fit: cover;
+    width: 256px;
+    height: 170px;
+    object-position: top;
+    transition: 0.01s ease-in;
+}
+
+.captains-list .captains .caps .content .content-caption {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 8px;
+    z-index: 3;
+}
+
+.captains .caps .content span {
+    font-size: 14px;
+}
+
+.captains-list .tab-content .scroll-items {
+    position: absolute;
+    bottom: -80px;
+    width: 95%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.scroll-items li {
+    position: relative;
+    padding: 0 29px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.scroll-items li.active button {
+    height: 35px;
+    background-color: var(--primary-color);
+}
+
+.scroll-items li button {
+    font-size: 0;
+    width: 2px;
+    height: 17px;
+    background-color: var(--primary-color-rgba3);
+    border: 0;
+}
+
+.scroll-items li p {
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--reddish-color);
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.scroll-items li p.testyear {
+    left: 0;
+}

@@ -1,0 +1,66 @@
+.domestic-honourscarousel .domestic-indicators button {
+    width: 50%;
+}
+
+.domestic-honourscarousel .domestic-card-inner::-webkit-scrollbar {
+    display: block;
+}
+
+.honourscarousel .honourcard-indicators button.mob-btn {
+    display: none;
+}
+
+.domestic-honourscarousel .domestic-card-inner .card-items .tropies {
+    height: 180px;
+    margin: 15px 0 0 0;
+}
+
+.domestic-card-inner .card-items h5 {
+    position: relative;
+    font-size: 60px !important;
+    margin-bottom: 0;
+}
+
+.domestic-card-inner .card-items img {
+    margin: 0;
+}
+
+.domestic-card-inner .card-items p {
+    text-align: start;
+    width: 105px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.74;
+    letter-spacing: .4px;
+}
+
+.domestic-card-inner .card-items .wining-team {
+    margin: 20px 0 16px 0;
+}
+
+.domestic-card-inner .card-items .wining-team img {
+    background-color: #ffffff;
+    width: 44px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.card-items .wining-team span {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .22px;
+}
+
+@media(max-width:767px) {
+    .honourscarousel.domestic-honourscarousel .domestic-indicators button {
+        width: 20%;
+    }
+
+    .domestic-card-inner .card-items .wining-team {
+        margin: 40px 0 16px 0;
+    }
+
+}

@@ -1,0 +1,41 @@
+.download-section {
+    min-height: 75vh;
+    padding: 40px 0;
+}
+
+.download-section .official-bcci-app {
+    background-image: url(../../../Assets/phone-bg-texture.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+
+.official-bcci-app .download-info {
+    margin-top: 50px;
+}
+
+.download-info h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.download-info p {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--secondary-color-rgba8);
+    margin-top: 30px;
+    margin-bottom: 0;
+    line-height: 32px;
+    letter-spacing: normal;
+}
+
+.download-info .download-btn a:nth-child(2) img {
+    object-fit: fill;
+    margin-left: -10px;
+}
+
+.official-bcci-app .phone img {
+    width: 80%;
+    height: auto;
+}

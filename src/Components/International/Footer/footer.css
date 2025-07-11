@@ -1,0 +1,117 @@
+.footer-section .sponsors {
+    background-color: var(--secondary-color);
+    padding: 4px;
+}
+
+.sponsors .row {
+    border: 2px solid var(--footer-sponsor-cols-color);
+    border-radius: 25px;
+    padding: 20px 0 40px 0;
+}
+
+.sponsors .row .cols {
+    text-align: center;
+    color: var(--footer-sponsor-cols-color);
+    padding: 0;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+
+.sponsors .row .cols p {
+    font-family: 'Source sans 3', sans-serif;
+    height: 40px;
+    font-size: 13px;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.sponsors .row .cols .image-wrapper {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsors .row .cols .image-wrapper img {
+    object-fit: cover;
+    height: auto;
+}
+
+.sponsors .row .cols .official-partners {
+    gap: 2.5rem;
+}
+
+.footer-section .footer {
+    position: relative;
+    background-color: var(--footer-bg-color);
+    color: var(--primary-color);
+}
+
+.footer-section .footer .footer-bg {
+    background: url(../../../Assets//footer-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer .top-footer {
+    padding-top: 50px;
+}
+
+.top-footer img {
+    object-fit: cover;
+    width: 74px;
+}
+
+.top-footer .top-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.top-footer .top-icons .brand-icons {
+    font-size: 20px;
+}
+
+.footer .middle-footer {
+    padding: 40px 0;
+    letter-spacing: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.middle-footer .cols h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.middle-footer .cols p {
+    font-size: 14.2px;
+    color: rgba(255, 255, 255, 0.58);
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.middle-footer .cols a {
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.footer .end-footer {
+    background-color: var(--footer-end-bg-color);
+    padding: 30px;
+    margin: 0 0 0 -15px;
+    letter-spacing: normal;
+}
+
+.end-footer p {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+.domestic-video-heading .video-head {
+    width: 47%;
+}
+
+.domestic-video-heading .seeall-arrow {
+    width: 53%;
+}
+
+.video-section .video-card.domestic-video-card {
+    overflow-x: scroll;
+}
+
+.domestic-video-card::-webkit-scrollbar {
+    display: block;
+}

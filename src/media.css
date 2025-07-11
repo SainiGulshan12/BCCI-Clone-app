@@ -1,0 +1,858 @@
+@media(max-width:1024px) {
+    .first-navbar .left-nav a {
+        margin-right: 0;
+        align-self: center;
+    }
+
+    .first-navbar .navbar-nav {
+        padding-left: 12px;
+    }
+
+    .first-navbar .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+        padding: 16px 0 13px 0;
+    }
+
+    .second-navbar .match-type ul li .men:after {
+        border-width: 21px 70px;
+    }
+
+    .homecarousel .carousel-control-prev {
+        left: 90%;
+    }
+
+    .quick-links .quick-links-items {
+        gap: 5px;
+    }
+
+    .homecarousel .carousel-item .play {
+        top: 55%;
+    }
+
+    .my-fixtures {
+        padding-bottom: 0.85rem;
+    }
+
+    .my-fixtures .card {
+        width: 411px;
+    }
+
+    .my-fixtures .card-details {
+        height: 220px;
+    }
+
+    .card-details .card-top {
+        padding: 0 0 0 1rem;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: start !important;
+    }
+
+    .card-details .card-top h4 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .card-details .card-top p {
+        font-size: 12px;
+    }
+
+    .card-details .card-center .teams .flag:last-child {
+        margin-right: 1.25rem;
+        justify-content: end !important;
+    }
+
+    .card-details .card-center .teams .flag img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card-details .card-center .teams .flag b {
+        font-size: 11px;
+    }
+
+    .card-details .card-center .date-timing {
+        font-size: 11px;
+    }
+
+    .card-bottom p {
+        font-size: 14px;
+    }
+
+
+    .card-details .card-center .teams .flag .score p b {
+        font-size: 18px;
+    }
+
+    .card-details .card-center .date-timing.result {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .video-heading .video-head ul {
+        gap: 18px;
+    }
+
+    .side-news .news-text::after {
+        position: absolute;
+        content: '';
+        bottom: 0px;
+        height: 40px;
+        width: 14rem;
+        background-color: #ffffff;
+    }
+
+    .team-player-ranking-section .rank-head {
+        width: 67%;
+    }
+
+    .honourscarousel .card-inner .card-items {
+        min-width: 301px;
+    }
+
+    .official-bcci-app .phone img {
+        width: 90% !important;
+        margin: 30px 20px 10px 20px;
+    }
+
+    .shopPassion-section .passion-img img {
+        width: 88%;
+        margin-top: 0;
+    }
+
+    .shopPassion-section .passion-description p {
+        width: 80%;
+        font-size: 16px;
+        margin: 30px 0px 1rem 12px;
+        line-height: 22px;
+    }
+
+    .shopPassion-section .passion-description a button {
+        padding: 10px 100px;
+        margin: 10px 0 0 10px;
+    }
+
+    .gallery-content img {
+        width: 292px;
+    }
+
+    .gallery-content .overlay .caption button {
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+
+    .gallery-content .overlay .caption h4 {
+        font-size: 12px;
+    }
+
+    .sponsors .row .col:nth-child(1) .image-wrapper img {
+        width: 90px;
+    }
+
+    .sponsors .row .col:nth-child(2) .image-wrapper img {
+        width: 100px;
+    }
+
+    .sponsors .row .col:nth-child(3) .image-wrapper img {
+        width: 45px;
+    }
+
+    .sponsors .row .col:nth-child(4) img:nth-child(1) {
+        width: 90px;
+    }
+
+    .sponsors .row .col:nth-child(4) img:nth-child(2) {
+        width: 50px;
+    }
+
+    .sponsors .row .col:nth-child(4) img:nth-child(3) {
+        width: 60px;
+    }
+
+    .sponsors .row .col:nth-child(5) .image-wrapper img {
+        width: 55px;
+    }
+
+    .sponsors .row .col:nth-child(6) .image-wrapper img {
+        width: 80px;
+    }
+
+    .sponsors .row .col .official-partners {
+        gap: 1.25rem;
+    }
+
+    .footer .middle-footer {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .middle-footer .match-div,
+    .middle-footer .contact-div {
+        width: 25%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    header .first-navbar {
+        padding-left: 10px;
+    }
+
+    .first-navbar .navbar-nav {
+        padding-left: 26px;
+    }
+
+    .navbar .right-nav .right-nav-item {
+        padding: 0 9px;
+    }
+
+    .navbar .right-nav .right-nav-item:nth-child(1) img,
+    .navbar .right-nav .right-nav-item:nth-child(4) img {
+        width: 34px;
+    }
+
+    .navbar .right-nav .right-nav-item:nth-child(5) {
+        padding: 10px !important;
+    }
+
+
+    .right-nav-item .select-lang .cross {
+        margin: 0px 0px 13px 15px;
+    }
+
+    .quick-links p {
+        padding: 0 12px;
+        height: 22px;
+        line-height: 25px;
+        white-space: nowrap;
+    }
+
+    .quick-links .quick-links-items {
+        gap: 10px;
+    }
+
+    .honourscarousel .card-inner .card-items {
+        min-width: 287px;
+    }
+
+    .honourscarousel .card-items h5 {
+        font-size: 120px;
+    }
+
+    .homecarousel-inner .carousel-item .img-wrapper {
+        height: calc(100vh - 620px);
+    }
+
+    .homecarousel .carousel-item .play {
+        display: none;
+    }
+
+    .homecarousel .carousel-control-next,
+    .homecarousel .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 20%;
+        width: 4%;
+        opacity: 1;
+        overflow: hidden;
+    }
+
+    .homecarousel .carousel-control-prev {
+        left: 85%;
+    }
+
+    .homecarousel .carousel-control-next {
+        left: 91%;
+    }
+
+    .video-head {
+        width: 75%;
+    }
+
+    .video-heading .seeall-arrow {
+        width: 25%;
+    }
+
+    .video-heading .video-head ul {
+        gap: 15px;
+    }
+
+    .video-card .card {
+        min-width: 280px;
+        margin-right: 15px;
+    }
+
+    .side-news .news-text::after {
+        height: 75px;
+        width: 9rem;
+        bottom: -35px;
+    }
+
+    .side-news .news-text h6 {
+        font-size: 12px;
+    }
+
+    .honourscarousel .honourcard-indicators button.desk-btn {
+        display: none;
+    }
+
+    .honourscarousel .honourcard-indicators button.mob-btn {
+        display: block;
+    }
+
+
+    .scroll-items li {
+        padding: 0px 25px;
+    }
+
+    .scroll-items li p {
+        letter-spacing: normal;
+    }
+
+    .gallery-content .overlay {
+        height: 160px;
+        padding: 6rem 20px 0;
+    }
+
+    .gallery-content img {
+        height: 160px;
+    }
+
+    .sponsors .row .col {
+        flex: none;
+    }
+
+    .sponsors .row .cols {
+        margin-bottom: 50px;
+    }
+
+    .sponsors .row .cols:nth-child(1),
+    .sponsors .row .cols:nth-child(4) {
+        width: 100%;
+    }
+
+    .sponsors .row .cols:nth-child(2),
+    .sponsors .row .cols:nth-child(3),
+    .sponsors .row .cols:nth-child(5),
+    .sponsors .row .cols:nth-child(6) {
+        width: 50%;
+    }
+
+    .sponsors .row .cols .image-wrapper {
+        height: auto;
+    }
+
+    .sponsors .row .col:nth-child(1) .image-wrapper img {
+        width: 120px;
+    }
+
+    .sponsors .row .col:nth-child(2) .image-wrapper img {
+        width: 110px;
+    }
+
+    .sponsors .row .col:nth-child(3) .image-wrapper img {
+        width: 65px;
+    }
+
+    .sponsors .row .col:nth-child(4) img:nth-child(1) {
+        width: 110px;
+    }
+
+    .sponsors .row .col:nth-child(4) img:nth-child(2) {
+        width: 70px;
+    }
+
+    .sponsors .row .col:nth-child(4) img:nth-child(3) {
+        width: 90px;
+    }
+
+    .sponsors .row .col:nth-child(5) .image-wrapper img {
+        width: 80px;
+    }
+
+    .sponsors .row .col:nth-child(6) .image-wrapper img {
+        width: 100px;
+    }
+
+    .sponsors .row .cols .official-partners {
+        justify-content: space-evenly;
+    }
+
+    .footer .middle-footer {
+        padding: 30px 0 0 0;
+    }
+
+    .middle-footer .match-div,
+    .middle-footer .contact-div {
+        width: 50%;
+    }
+
+}
+
+@media(min-width:426px)and (max-width:768px) {
+    .team-player-ranking-section .row {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    header .first-navbar {
+        padding: 0 10px;
+    }
+
+    .first-navbar .navbar-toggler {
+        display: block;
+        padding: 0 6px;
+        color: #ffffff;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .navbar-toggler-icon {
+        width: 24px;
+        height: 11px;
+        background-image: url('https://documents.bcci.tv/web-images/hamburger-menu.png');
+    }
+
+    .first-navbar .navbar-nav {
+        display: none;
+    }
+
+    .navbar .right-nav .desk-nav-item {
+        display: none;
+    }
+
+    .navbar .right-nav .right-nav-item {
+        border-left: 0;
+        padding: 0 6px;
+    }
+
+    .navbar .right-nav .right-nav-item:nth-child(1) img {
+        width: 24px;
+    }
+
+    .mob-nav-cricket-type {
+        display: flex;
+    }
+
+    .second-navbar .match-type {
+        display: none;
+    }
+
+    header .mob-match-type {
+        display: block;
+    }
+
+    .second-navbar {
+        margin-top: 0 !important;
+    }
+
+    .second-navbar .other-cric-info {
+        padding-left: 0;
+    }
+
+    .homecarousel-inner .carousel-item .img-wrapper {
+        height: 400px;
+    }
+
+    .homecarousel-inner .carousel-item .img-wrapper img {
+        height: 400px;
+    }
+
+    .homecarousel .homecarousel-indicators {
+        bottom: 10px;
+        left: 15px;
+    }
+
+    .homecarousel .homecarousel-indicators [data-bs-target] {
+        width: 20px;
+    }
+
+    .homecarousel-inner .carousel-item .carousel-caption {
+        bottom: 40px;
+        left: 15px;
+        width: 74%;
+
+    }
+
+    .carousel-caption button {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 16px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+    .carousel-caption .share-icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    .homecarousel .carousel-item .play {
+        display: block;
+        left: 76%;
+    }
+
+    .homecarousel .carousel-control-next,
+    .homecarousel .carousel-control-prev {
+        display: none;
+    }
+
+    .match-heading {
+        padding: 15px 1rem 0 0;
+        margin-bottom: 18px;
+    }
+
+    .match-heading .fixtures-head h1 {
+        font-size: 20px;
+    }
+
+    .match-heading .fixtures-head .tabs {
+        margin: 0;
+        gap: 10px;
+    }
+
+    .match-heading .fixtures-head .tabs .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+    .match-heading .seeall-arrow p,
+    .match-heading .seeall-arrow .arrow-icon {
+        opacity: 0.5;
+        font-size: 11px;
+    }
+
+    .match-heading .seeall-arrow .angle-icon {
+        display: none;
+    }
+
+    .my-fixtures .card {
+        width: 385px;
+        margin-right: 20px;
+    }
+
+    .video-section {
+        background-position: top left 0px;
+        padding-left: 0;
+    }
+
+    .video-heading .video-head ul {
+        position: absolute;
+        bottom: -40px;
+        gap: 15px;
+    }
+
+    .video-head ul li button {
+        font-size: 14px;
+    }
+
+    .video-heading .seeall-arrow .angle-icon {
+        display: none;
+    }
+
+    .video-head {
+        width: 50%;
+    }
+
+    .video-heading .video-head h1 {
+        font-size: 20px;
+    }
+
+    .video-heading .seeall-arrow {
+        width: 50%;
+    }
+
+    .video-section .video-card {
+        margin-top: 65px;
+    }
+
+    .video-card .card {
+        min-width: 326px;
+    }
+
+    .video-card .card-img-top {
+        height: 200px;
+    }
+
+    .news-heading h1 {
+        font-size: 20px;
+    }
+
+    .news-heading .seeall-arrow p,
+    .news-heading .seeall-arrow .arrow-icon {
+        font-size: 11px;
+    }
+
+    .news-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .news-content .cover-img {
+        width: 100%;
+        height: 334px;
+    }
+
+    .news-content .cover-img img {
+        object-fit: fill;
+        height: 220px;
+    }
+
+    .news-content .cover-img::after {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 20%)
+    }
+
+    .news-content .coverImg-caption h2 {
+        font-size: 18px;
+        letter-spacing: .5px;
+    }
+
+    .side-news-content {
+        height: 320px;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .side-news .side-cover-img {
+        width: 130px;
+    }
+
+    .side-news .news-text::after {
+        height: 45px;
+        width: 15rem;
+        bottom: -3px;
+    }
+
+    .team-player-ranking-section .row>* {
+        padding: 0;
+    }
+
+    .team-player-ranking-section .rank-head {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .rank-head h1 {
+        font-size: 24px;
+    }
+
+    .ranks .seeall {
+        right: 15px;
+    }
+
+    .ranks .seeall p {
+        font-size: 11px;
+    }
+
+    .blue-ranks .team-ranking span {
+        font-size: 40px;
+    }
+
+    .blue-ranks .team-ranking .full-block span {
+        font-size: 60px;
+    }
+
+    .download-section .official-bcci-app {
+        background-position: bottom right;
+        background-size: 180%;
+    }
+
+    .official-bcci-app .row>* {
+        padding: 0;
+    }
+
+    .official-bcci-app .download-info {
+        margin-top: 0;
+    }
+
+    .download-info h1 {
+        font-size: 22px;
+    }
+
+    .download-info p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .official-bcci-app .phone img {
+        width: 80% !important;
+        margin: 35px 35px;
+    }
+
+    .honours-section {
+        background: url(../src/Assets/honours.png);
+        background-repeat: no-repeat;
+        background-size: 100% 260px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .honours-section h2 {
+        font-size: 24px;
+    }
+
+    .honourscarousel .honourcard-indicators {
+        width: 64%;
+        left: 18%;
+    }
+
+    .honourscarousel .honourcard-indicators button {
+        width: 9%;
+    }
+
+    .honourscarousel .honourcard-indicators button.desk-btn {
+        display: none;
+    }
+
+    .honourscarousel .honourcard-indicators button.mob-btn {
+        display: block;
+    }
+
+    .honourscarousel .card-inner .card-items {
+        min-width: 342px;
+        transform: scale(0.8);
+        margin-right: 0;
+        transition: 0.01s !important;
+    }
+
+    .honourscarousel .card-inner .card-items.active {
+        transform: scale(1);
+    }
+
+    .honourscarousel .card-items img {
+        margin-top: 40px;
+        height: 200px;
+    }
+
+    .captainCorner-section .heading .head h3 {
+        font-size: 20px;
+    }
+
+    .heading .tabs {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .heading .tabs .nav {
+        width: 250px;
+    }
+
+    .heading .nav-tabs .nav-link {
+        padding: .5rem 1.75rem;
+    }
+
+    .captains .caps .content img {
+        width: auto;
+        height: 150px;
+    }
+
+    .captains .caps .content.active img {
+        width: 280px;
+        height: 170px;
+    }
+
+    .scroll-items li {
+        padding: 0px 13px;
+    }
+
+    .scroll-items li p.testyear {
+        left: -23px;
+    }
+
+    .scroll-items li p {
+        left: -34px;
+        font-size: 12px;
+    }
+
+    .shopPassion-section .shop-img img {
+        margin-bottom: 40px;
+    }
+
+    .shopPassion-section .passion-img img {
+        width: 78%;
+        margin-top: 25px;
+    }
+
+    .shopPassion-section .passion-description p {
+        margin: 10px 0 1rem 70px;
+    }
+
+    .shopPassion-section .passion-description a button {
+        padding: 10px 80px;
+        margin: 10px 0 0 70px;
+    }
+
+    .heading .seeall .angle-icon {
+        display: none;
+    }
+
+    .photo-section .heading h2 {
+        font-size: 20px;
+    }
+
+    .heading .seeall p,
+    .heading .seeall .arrow .arrow-icon {
+        font-size: 11px;
+    }
+
+    .gallery-content img {
+        width: 320px;
+    }
+
+    .footer-section .sponsors {
+        background-color: #000000;
+        padding: 10px 2px;
+    }
+
+    .top-footer img {
+        width: 40px;
+    }
+
+    .middle-footer .cols h3 {
+        font-size: 16px;
+    }
+
+    .middle-footer .cols p,
+    .middle-footer .cols a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:375px) {
+    .my-fixtures .card {
+        width: 336px;
+        margin-right: 20px;
+    }
+
+    .video-heading .video-head ul {
+        bottom: -50px;
+    }
+
+    .video-section .video-card {
+        margin-top: 75px;
+    }
+
+    .video-card .card {
+        min-width: 285px;
+    }
+
+    .scroll-items li {
+        padding: 0px 11.5px;
+    }
+
+    .gallery-content img {
+        width: 278px;
+    }
+}

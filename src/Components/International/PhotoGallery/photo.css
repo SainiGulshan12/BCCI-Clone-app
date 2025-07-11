@@ -1,0 +1,157 @@
+.photo-section {
+    background: url(../../../Assets/gallery-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    margin: 40px 0 40px 15px;
+    padding-left: 15px;
+    color: var(--primary-color);
+}
+
+.photo-section .heading {
+    letter-spacing: normal;
+}
+
+.photo-section .heading h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.heading .seeall .angle-icon:first-child {
+    opacity: 0.25;
+}
+
+.heading .seeall .angle-icon:first-child:active {
+    opacity: 1;
+}
+
+.heading .seeall .angle-icon {
+    height: 25px;
+    width: 15px;
+    cursor: pointer;
+    opacity: .75;
+}
+
+.heading .seeall .angle-icon:last-child:hover {
+    opacity: 1;
+}
+
+.heading .seeall {
+    color: var(--primary-color);
+    gap: 26px;
+}
+
+.heading .seeall p {
+    font-size: 12px;
+    padding: 1px 0 1px 6px;
+    font-weight: 900;
+    margin-bottom: 0;
+    opacity: 0.5;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.heading .seeall .arrow .arrow-icon {
+    font-size: 13px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    padding: .25rem;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.heading .seeall .arrow:hover .arrow-icon {
+    border: 2px solid var(--secondary-color-rgba5);
+    background-color: var(--primary-color);
+    color: var(--secondary-color-rgba5);
+    opacity: 1;
+}
+
+.seeall .arrow:hover p {
+    opacity: 1;
+    transition: 0.2s linear;
+}
+
+
+.image-gallery .row>* {
+    padding: 0;
+}
+
+.image-gallery .gallery-container {
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.gallery-container::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-container .gallery-content {
+    position: relative;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.gallery-content img {
+    object-fit: cover;
+    width: 468px;
+    height: 220px;
+    border: 0;
+    border-radius: 10px;
+    object-position: top;
+    transform-origin: bottom;
+    transition: transform 0.01s ease-out;
+}
+
+.gallery-content .col:hover img {
+    transform: scaleY(1.1);
+    transition: 0.4s;
+}
+
+.gallery-content .overlay {
+    position: absolute;
+    background: var(--photo-sec-gallery-cont-overl-linear-grad-color);
+    height: 220px;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.4s;
+    letter-spacing: normal;
+    cursor: pointer;
+    z-index: 6;
+}
+
+.gallery-content .overlay:hover {
+    opacity: 1;
+}
+
+.gallery-content .overlay .caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+
+}
+
+.gallery-content .overlay .caption button {
+    display: flex;
+    align-items: center;
+    padding: 3px 16px 3px 16px;
+    background-color: var(--reddish-color);
+    color: var(--primary-color);
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.gallery-content .overlay .caption button .icon {
+    height: 15px;
+    width: 12px;
+    margin-right: 5px;
+}
+
+.gallery-content .overlay .caption h4 {
+    font-size: 14px;
+    margin: 8px 0 15px 0;
+}

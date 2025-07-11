@@ -1,0 +1,201 @@
+.home-section {
+    background-color: var(--home-sec-bg-color);
+}
+
+.quick-links {
+    padding: 8px 15px 8px;
+}
+
+.quick-links p {
+    border-radius: 30px;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: var(--home-sec-quick-link-bg-color);
+    color: var(--home-sec-quick-link-color);
+}
+
+.quick-links p,
+.quick-links ul {
+    margin-bottom: 0;
+}
+
+.quick-links .quick-links-items {
+    gap: 35px;
+    margin-left: 20px;
+    list-style: none;
+    flex-wrap: nowrap;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.quick-links .quick-links-items::-webkit-scrollbar {
+    display: none;
+}
+
+.quick-links .quick-links-items li {
+    color: var(--home-sec-quick-link-color);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.quick-links .quick-links-items .icon {
+    color: #c2c9d3;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.hero-banner {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    background-color: #e9ecf4;
+}
+
+.hero-banner p {
+    margin-bottom: 0;
+}
+
+.hero-banner .overlay::after {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    height: 50%;
+    margin: 0 15px;
+    border-radius: 0 0 10px 10px;
+    background: var(--home-sec-hero-bann-overlay-linear-grad-color);
+}
+
+.homecarousel .homecarousel-indicators {
+    bottom: 30px;
+    left: 44px;
+    justify-content: start;
+    margin: 0;
+}
+
+.homecarousel .homecarousel-indicators [data-bs-target] {
+    width: 60px;
+    height: 2px;
+    margin: 0 5px;
+}
+
+.homecarousel .homecarousel-indicators .active {
+    background-color: var(--reddish-color);
+}
+
+.homecarousel .homecarousel-inner .carousel-item {
+    transition: 0.4s;
+}
+
+.homecarousel-inner .carousel-item .img-wrapper {
+    height: calc(100vh - 180px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.homecarousel-inner .carousel-item .img-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.homecarousel .carousel-item .play {
+    position: absolute;
+    top: 66%;
+    left: 58%;
+    background-color: var(--reddish-color);
+    color: var(--primary-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.homecarousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    bottom: 78px;
+    right: 50%;
+    left: 50px;
+    width: 54%;
+    padding: 0 0 0 15px;
+    border-left: 5px solid var(--reddish-color);
+    text-align: start;
+    z-index: 99;
+}
+
+.carousel-caption button {
+    border: none;
+    background-color: var(--reddish-color);
+    color: var(--primary-color);
+    padding: 4px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.carousel-caption h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 1rem 0 .5rem 0;
+    text-shadow: var(--home-carousel-caption-h3-text-shadow);
+}
+
+.carousel-caption p {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.carousel-caption .share-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.homecarousel .carousel-control-next,
+.homecarousel .carousel-control-prev {
+    position: absolute;
+    top: 83%;
+    bottom: 35px;
+    width: 4%;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.homecarousel .carousel-control-prev {
+    left: 91.5%;
+}
+
+.homecarousel .carousel-control-next {
+    right: 20px;
+}
+
+.homecarousel .carousel-control-prev-icon,
+.homecarousel .carousel-control-next-icon {
+    background-image: none;
+}
+
+.homecarousel .carousel-control-next-icon:before,
+.homecarousel .carousel-control-prev-icon::before {
+    content: "";
+    background-image: url(../../../Assets/hero-arrow-left-right.webp);
+    background-repeat: no-repeat;
+    background-size: 64px 28px;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+
+.homecarousel .carousel-control-prev-icon::before {
+    background-position: left;
+}
+
+.homecarousel .carousel-control-next-icon::before {
+    background-position: right;
+}

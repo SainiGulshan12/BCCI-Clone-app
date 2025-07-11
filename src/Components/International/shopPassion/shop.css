@@ -1,0 +1,26 @@
+.shopPassion-section .shop-img img{
+    width: 94%;
+    height: auto;
+}
+.shopPassion-section .passion-img img{ 
+    margin-top: 35px;
+    height: auto;
+}
+.shopPassion-section .passion-description p{
+    color: #2b3f6c;
+    font-size: 18px;
+    font-weight: 500;
+    width: 58%;
+    margin: 30px 0px 1rem 120px;
+    line-height: 36px;
+    letter-spacing: normal;
+}
+.shopPassion-section .passion-description a button{
+    background-color: #f25549;
+    color: var(--primary-color);
+    border: 0;
+    font-size: 18px;
+    padding: 6px 36px;
+    border-radius: 10px;
+    margin: 20px 0 0 120px;
+}

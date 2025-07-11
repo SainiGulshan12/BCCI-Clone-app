@@ -1,0 +1,263 @@
+.team-player-ranking-section .rank-head {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: normal;
+}
+
+.rank-head h1 {
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.rank-head p {
+    color: #212529;
+    font-size: 14px;
+    opacity: .5;
+    margin-bottom: 4px;
+}
+
+.team-player-ranking-section .ranks {
+    padding-top: 80px;
+    height: 440px;
+    letter-spacing: normal;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.team-player-ranking-section .ranks::-webkit-scrollbar {
+    display: none;
+}
+
+/* blue ranks CSS */
+
+.team-player-ranking-section .ranks .blue-ranks {
+    position: relative;
+    height: 300px;
+    width: 320px;
+    border-radius: 20px 0 0 20px;
+    background-color: #1a4fa0;
+    color: var(--primary-color);
+}
+
+.ranks .blue-ranks p {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 18px;
+}
+
+.blue-ranks .team-ranking .half-block {
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 13px;
+    padding-right: 9px;
+}
+
+.blue-ranks .team-ranking span {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.blue-ranks .team-ranking sub {
+    font-size: 13px;
+    font-weight: 100;
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.blue-ranks .team-ranking .full-block {
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 13px;
+    overflow: hidden;
+}
+
+.blue-ranks .team-ranking .full-block span {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 800;
+}
+
+.blue-ranks .team-ranking .full-block .bcci-logo {
+    position: absolute;
+    bottom: -30px;
+    right: -36px;
+}
+
+.blue-ranks .team-ranking .full-block .bcci-logo img {
+    height: 150px;
+    width: 150px;
+    opacity: .5;
+}
+
+/* See all CSS */
+
+.ranks .seeall {
+    position: absolute;
+    top: 30px;
+    right: 22px;
+    font-size: 12px;
+    font-weight: 900;
+    color: var(--secondary-color);
+    opacity: 0.65;
+    z-index: 29;
+    cursor: pointer;
+}
+
+.ranks .seeall p {
+    margin-bottom: 0;
+    letter-spacing: 1.1px;
+}
+
+.ranks .seeall .arr-icon {
+    border: 2px solid rgba(0, 0, 0, .65);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* gray ranks CSS */
+
+
+.grey-ranks::before,
+.grey-ranks::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: rgba(230, 233, 241, .75);
+}
+
+.grey-ranks::before {
+    top: -80px;
+    height: 80px;
+    border-top-left-radius: 80px;
+}
+
+.grey-ranks::after {
+    bottom: 0px;
+    height: 60px;
+    border-radius: 0;
+}
+
+.rankscarousel.test {
+    background-color: #3e4856;
+    width: 315px;
+    height: 300px;
+}
+
+.rankscarousel.odi {
+    background-color: #20293a;
+    width: 315px;
+    height: 300px;
+}
+
+.rankscarousel.t20i {
+    background-color: #141b24;
+    width: 315px;
+    height: 300px;
+}
+
+.rankscarousel .rankscarousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.rankscarousel .rankscarousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 7px;
+    opacity: 1;
+    background-color: var(--secondary-color-rgba4);
+    cursor: default;
+}
+
+.rankscarousel .rankscarousel-indicators .active {
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.rankscarousel-inner .carousel-item {
+    transition: 0.3s;
+}
+
+.rankscarousel-inner .carousel-item img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 164px;
+}
+
+.rankscarousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 0%;
+    bottom: 50%;
+    padding: 0;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+.rankscarousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.rankscarousel-inner .carousel-item .carousel-caption span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.rankscarousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5px;
+    letter-spacing: normal;
+}
+
+.rankscarousel-inner .carousel-item button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 0;
+    padding: 3px 14px 5px;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    z-index: 3;
+}
+
+.rankscarousel-inner .carousel-item button.test {
+    background-color: #dcb342;
+}
+
+.rankscarousel-inner .carousel-item button.odi {
+    background-color: #b0d5ff;
+}
+
+.rankscarousel-inner .carousel-item button.t20i {
+    background-color: #133f7e;
+    color: var(--primary-color);
+}
+
+.rankscarousel-inner .carousel-item h1 {
+    position: absolute;
+    left: -18px;
+    bottom: -46px;
+    font-size: 176px;
+    font-weight: 900;
+    line-height: 220px;
+    color: var(--primary-color-rgba2);
+}
