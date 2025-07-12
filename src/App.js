@@ -23,18 +23,17 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-      
         <Route path="/" element={
           <> <Home /> <Match /> <Video /> <News /> <Rank /> <Download /> <Honours /> <Captain /> <Shop /> <Photo /> <Footer />
           </>
-          }
+        }
         />
-
+        
         {/* International Route */}
         <Route path="/international/men" element={
           <> <Home /> <Match /> <Video /> <News /> <Rank /> <Download /> <Honours /> <Captain /> <Shop /> <Photo /> <Footer />
           </>
-          }
+        }
         />
 
         {/* Domestic Route */}
@@ -42,7 +41,7 @@ function App() {
           <> <Homed /> <Videod /> <Newsd /> <Download /> <Shop /> <Honoursd /> <Photo /> <Footer /> </>} />
       </Routes>
 
-      
+
     </div>
   );
 }

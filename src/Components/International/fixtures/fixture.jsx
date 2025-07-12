@@ -68,7 +68,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
                       <h4>India Mens U19 In England Multiday Series 2025</h4>
-                      <p>15 Hours to go</p>
+                      <p>1 Hour to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -106,7 +106,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
                       <h4>INDIA WOMEN IN ENGLAND T20 SERIES 2025</h4>
-                      <p>1 DAY TO GO</p>
+                      <p>8 HOUR TO GO</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -144,7 +144,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
                       <h4>India women  In England Odi Series 2025</h4>
-                      <p>5 days to go</p>
+                      <p>4 days to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -182,7 +182,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
                       <h4>INDIA WOMEN IN ENGLAND ODI SERIES 2025</h4>
-                      <p>1 WEEK TO GO</p>
+                      <p>7 DAYS TO GO</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">

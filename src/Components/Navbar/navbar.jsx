@@ -33,7 +33,7 @@ function Navbar() {
             navigate('/domestic/men')
         }
         else {
-            navigate('/international/men')
+            navigate('/')
         }
     }, [isDomestic]);
 
