@@ -3,7 +3,7 @@ import './fixture.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { TiArrowRight } from 'react-icons/ti';
-import vs from '../../../Assets/vs.png'
+import vs from '../../../../Assets/vs.png'
 
 
 function Match() {

@@ -247,10 +247,10 @@ function Navbar() {
                     <div className="match-type">
                         <ul className="nav flex-nowrap" >
                             <li>
-                                <button className="men">MEN</button>
+                                <Link className="men">MEN</Link>
                             </li>
                             <li >
-                                <button className="women">WOMEN</button>
+                                <Link className="women">WOMEN</Link>
                             </li>
                         </ul>
                     </div>

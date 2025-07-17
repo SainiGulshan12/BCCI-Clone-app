@@ -1,9 +1,9 @@
 import React from 'react';
 import './download.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import playstore from '../../../Assets/playstore.webp';
-import appstore from '../../../Assets/appstore.png';
-import phone from '../../../Assets/phone.avif';
+import playstore from '../../../../Assets/playstore.webp';
+import appstore from '../../../../Assets/appstore.png';
+import phone from '../../../../Assets/phone.avif';
 
 function Download() {
     return (

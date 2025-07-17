@@ -184,7 +184,7 @@
 .homecarousel .carousel-control-next-icon:before,
 .homecarousel .carousel-control-prev-icon::before {
     content: "";
-    background-image: url(../../../Assets/hero-arrow-left-right.webp);
+    background-image: url(../../../../Assets/hero-arrow-left-right.webp);
     background-repeat: no-repeat;
     background-size: 64px 28px;
     height: 30px;

@@ -188,7 +188,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../../../Assets/texture.webp);
+    background-image: url(../../../../Assets/texture.webp);
     background-position: center;
     background-size: 430px;
     opacity: .1;
