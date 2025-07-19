@@ -13,10 +13,14 @@ import Shop from "./Components/Men/International/shopPassion/shop";
 import Photo from "./Components/Men/International/PhotoGallery/photo";
 import Footer from "./Components/Men/International/Footer/footer";
 
-import Homed from "./Components/Men/Domestic/Home/home";
-import Videod from "./Components/Men/Domestic/Videos/video";
-import Newsd from "./Components/Men/Domestic/News/news";
-import Honoursd from "./Components/Men/Domestic/Honours/honours";
+import Homedm from "./Components/Men/Domestic/Home/home";
+import Videodm from "./Components/Men/Domestic/Videos/video";
+import Newsdm from "./Components/Men/Domestic/News/news";
+import Honoursdm from "./Components/Men/Domestic/Honours/honours";
+
+import Homeiw from "./Components/Women/International/Home/home";
+
+import Homedw from "./Components/Women/Domestic/Home/home";
 
 function App() {
   return (
@@ -28,7 +32,7 @@ function App() {
           </>
         }
         />
-        
+
         {/* International Route */}
         <Route path="/international/men" element={
           <> <Home /> <Match /> <Video /> <News /> <Rank /> <Download /> <Honours /> <Captain /> <Shop /> <Photo /> <Footer />
@@ -38,10 +42,18 @@ function App() {
 
         {/* Domestic Route */}
         <Route path="/domestic/men" element={
-          <> <Homed /> <Videod /> <Newsd /> <Download /> <Shop /> <Honoursd /> <Photo /> <Footer /> </>} />
+          <> <Homedm /> <Videodm /> <Newsdm /> <Download /> <Shop /> <Honoursdm /> <Photo /> <Footer /> </>} />
+
+
+        {/* International Men Route */}
+        <Route path="/international/women" element={
+          <> <Homeiw /> <Match/> </>} />
+
+        {/* Domestic Women Route */}
+        <Route path="/domestic/women" element={
+          <> <Homedw /> </>} />
+
       </Routes>
-
-
     </div>
   );
 }

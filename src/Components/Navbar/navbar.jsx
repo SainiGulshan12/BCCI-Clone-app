@@ -9,7 +9,7 @@ import { GrCertificate } from "react-icons/gr";
 import { RiShieldKeyholeLine } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 function Navbar() {
@@ -17,25 +17,43 @@ function Navbar() {
     const [toggleSearch, setToggleSearch] = useState(false);
     const [showSelectLanguage, setShowSelectLanguage] = useState(false);
     const [activeAnchorLink, setActiveAnchorLink] = useState(null);
-    const [activeTab, setactiveTab] = useState("international/men");
 
     const handleENClick = () => setShowSelectLanguage(true);
     const handleCloseLanguage = () => setShowSelectLanguage(false);
 
-    const [isDomestic, setIsDomestic] = useState(false);
-    const navigate = useNavigate();
-
     const handletoggle = () => {
         setIsDomestic(prev => !prev);
     };
+
+    const [activeTab, setactiveTab] = useState("/international/men");
+    const [isDomestic, setIsDomestic] = useState(false);
+    const navigate = useNavigate();
+
     useEffect(() => {
-        if (isDomestic) {
-            navigate('/domestic/men')
-        }
-        else {
-            navigate('/')
-        }
-    }, [isDomestic]);
+        navigate("/");
+        setactiveTab("/international/men");
+        setIsDomestic(false);
+    }, []);
+
+    const handleTabclick = (type) => {
+        const route = type === "international" ? "/international/men" : "/domestic/men";
+        setIsDomestic(type === "domestic");
+        setactiveTab(route);
+        navigate(route);
+    };
+
+    const handleMenclick = () => {
+        const route = isDomestic ? "/domestic/men" : "/international/men";
+        setactiveTab(route);
+        navigate(route);
+    };
+
+
+    const handleWomenclick = () => {
+        const route = isDomestic ? "/domestic/women" : "/international/women";
+        setactiveTab(route);
+        navigate(route);
+    };
 
     return (
         <>
@@ -149,14 +167,18 @@ function Navbar() {
                         <button className="navbar-toggler" type="button" aria-label="Toggle navigation" data-bs-toggle="offcanvas" data-bs-target="#mobileMenuModal">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="d-flex align-items-center left-nav" >
-                            <a href="https://www.bcci.tv/"><img src='https://documents.bcci.tv/web-images/bcci-logo-rounded.png' alt='bcci'></img></a>
-                            <ul className="navbar-nav">
+                        <div className="d-flex align-items-center left-nav">
+                            <a href="https://www.bcci.tv/">
+                                <img src="https://documents.bcci.tv/web-images/bcci-logo-rounded.png" alt="bcci" />
+                            </a>
+                            <ul className="navbar-nav flex-row">
                                 <li className="nav-item">
-                                    <Link to="/international/men" className={`nav-link px-0 ${activeTab === "international/men" ? "active" : ""}`} aria-current="page" onClick={() => { setactiveTab('international/men'); setIsDomestic(false); }}>International</Link>
+                                    <button className={`nav-link px-0 ${!isDomestic ? "active" : ""}`} onClick={() => handleTabclick('international')}> International
+                                    </button>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/domestic/men" className={`nav-link px-0 ${activeTab === "domestic/men" ? "active" : ""}`} onClick={() => { setactiveTab('domestic/men'); setIsDomestic(true); }}>Domestic</Link>
+                                    <button className={`nav-link px-0 ${isDomestic ? "active" : ""}`} onClick={() => handleTabclick('domestic')}> Domestic
+                                    </button>
                                 </li>
                             </ul>
                         </div>
@@ -244,13 +266,17 @@ function Navbar() {
 
                 {/* desktop menu second navbar */}
                 <div className="bg-white second-navbar d-flex flex-nowrap" style={{ marginTop: toggleSearch ? "44px" : "0px" }}>
-                    <div className="match-type">
-                        <ul className="nav flex-nowrap" >
+                    <div className="match-type ">
+                        <ul className="nav flex-nowrap">
                             <li>
-                                <Link className="men">MEN</Link>
+                                <button className={`men nav-link ${activeTab === "/international/men" || activeTab === "/domestic/men" ? "active" : ""}`} onClick={handleMenclick}>
+                                    MEN
+                                </button>
                             </li>
-                            <li >
-                                <Link className="women">WOMEN</Link>
+                            <li>
+                                <button className={`women nav-link ${activeTab === "/international/women" || activeTab === "/domestic/women" ? "active" : ""}`} onClick={handleWomenclick}>
+                                    WOMEN
+                                </button>
                             </li>
                         </ul>
                     </div>
