@@ -87,10 +87,10 @@ function Rank() {
                                             <div className="carousel-caption d-md-block">
                                                 <h5>Yashasvi Jaiswal</h5>
                                                 <span>Batter</span>
-                                                <p>Rank : #04</p>
+                                                <p>Rank : #05</p>
                                             </div>
                                             <button className='test'>TEST</button>
-                                            <h1>04</h1>
+                                            <h1>05</h1>
                                         </div>
                                         <div className="carousel-item h-100">
                                             <img src="https://documents.bcci.tv/resizedimageskirti/1124_compress.png" alt="Jasprit-bumrah" />

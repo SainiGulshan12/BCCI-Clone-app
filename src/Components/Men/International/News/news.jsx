@@ -21,11 +21,21 @@ function News() {
                     <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="Rescheduling of India’s white-ball Tour of Bangladesh" />
                     <div className="coverImg-caption position-absolute bottom-0">
                         <button className='newsbtn'>News</button>
-                        <h2>Rescheduling of India’s white-ball Tour of Bangladesh</h2>
-                        <p className="d-flex align-items-center justify-content-between">5th July, 2025 <span> <IoShareSocialOutline className='shareIcon' /> </span> </p>
+                        <h2>Board of Control for Cricket in India (BCCI) invites proposals for accreditation services</h2>
+                        <p className="d-flex align-items-center justify-content-between">18th July, 2025 <span> <IoShareSocialOutline className='shareIcon' /> </span> </p>
                     </div>
                 </div>
                 <div className="side-news-content">
+                    <div className="side-news">
+                        <div className="side-cover-img">
+                            <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="Rescheduling of India’s white-ball Tour of Bangladesh" />
+                        </div>
+                        <div className="news-text">
+                            <h6>05th July, 2025 </h6>
+                            <h3>Rescheduling of India’s white-ball Tour of Bangladesh</h3>
+                        </div>
+                        <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
+                    </div>
                     <div className="side-news">
                         <div className="side-cover-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="BCCI invites proposals for provision of broadcast graphics services for BCCI’s domestic seasons" />
@@ -86,17 +96,6 @@ function News() {
                         </div>
                         <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
                     </div>
-                    <div className="side-news">
-                        <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1749495575_Hall-Of-Fame-16x9.png" alt="Remainder of IPL 2025 to be held at six venues" />
-                        </div>
-                        <div className="news-text">
-                            <h6>09th June, 2025 </h6>
-                            <h3>Top Honour: MS Dhoni Inducted into ICC Hall of Fame</h3>
-                        </div>
-                        <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
-                    </div>
-
                 </div>
             </div>
         </section>

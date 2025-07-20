@@ -9,60 +9,60 @@ function Video() {
 
     const latestVideos = [
         {
-            img: "https://brightcove.iplt20.com/output/input/6375525234112-1752218710.jpg",
-            date: "11th Jul, 2025",
-            title: "Happy with the way I bowled today: Nitish Kumar Reddy",
-            views: "313",
-            duration: "005:03 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375778447112-1752806110.jpg",
+            date: "18th Jul, 2025",
+            title: "The MVP ft. Ravindra Jadeja",
+            views: "33.2 k",
+            duration: "02:29 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375475922112-1752132259.jpg",
-            date: "10th Jul, 2025",
-            title: "Team India is ready for Lord's",
-            views: "9.8k",
-            duration: "02:13 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375762393112-1752771029.jpg",
+            date: "17th Jul, 2025",
+            title: "Managing the team environment is very important: Ryan ten...",
+            views: "5.5k",
+            duration: "06:20 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375450611112-1752074673.jpg",
-            date: "9th Jul, 2025",
-            title: "I like to bat with a very clear mindset: Rishabh Pant",
-            views: "4.7k",
-            duration: "05:28 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375735272112-1752734112.jpg",
+            date: "17th Jul, 2025",
+            title: "India U19's Day out at Lord's",
+            views: "23.2k",
+            duration: "02:31 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375379063112-1751992510.jpg",
-            date: "8th Jul, 2025",
-            title: "Rishabh Pant approaches his batting with lots of planning;...",
-            views: "1.5 k ",
-            duration: "08:55 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375684176112-1752605647.jpg",
+            date: "15th Jul, 2025",
+            title: "Team India meets His Majesty",
+            views: "29.5 k ",
+            duration: "01:23 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375310229112-1751872640.jpg",
-            date: "7th Jul, 2025",
-            title: "It will be a series to remember if we keep grinding like this:...",
-            views: "11.5 k",
-            duration: "10:46 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375666451112-1752565829.jpg",
+            date: "15th Jul, 2025",
+            title: "I am proud of the effort we put in the Test: Shubman Gill",
+            views: "8.5 k",
+            duration: "09:02 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375306164112-1751869076.jpg",
-            date: "7th Jul, 2025",
-            title: "Special win and special reactions from Edgbaston",
-            views: "36.1k",
-            duration: "02:26 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375627292112-1752479238.jpg",
+            date: "14th Jul, 2025",
+            title: "I had solid plans coming into this Test match: Washington...",
+            views: "9.1k",
+            duration: "05:53 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375305873112-1751858245.jpg",
-            date: "7th Jul, 2025",
-            title: "Pitch side with the Captain Shubman Gill",
-            views: "30.2k",
-            duration: "01:54 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375623384112-1752462312.jpg",
+            date: "14th Jul, 2025",
+            title: "BoWled (th)'em ft. Washington Sundar",
+            views: "29.5k",
+            duration: "01:47 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375288509112-1751782830.jpg",
-            date: "6th Jun, 2025",
-            title: "Akash produced a dream delivery to dismiss Root: Mor...",
-            views: "17.4k",
-            duration: "06:36 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375606428112-1752400469.jpg",
+            date: "13th Jun, 2025",
+            title: "My mindset, hunger, and passion has always been ther...",
+            views: "8.4k",
+            duration: "09:51 mins"
         }
     ];
 
@@ -127,25 +127,25 @@ function Video() {
 
     const features = [
         {
-            img: "https://brightcove.iplt20.com/output/input/6375475922112-1752132259.jpg",
-            date: "10th Jul, 2025",
-            title: "Team India is ready for Lord's",
-            views: "9.8k",
-            duration: "02:13 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375778447112-1752806110.jpg",
+            date: "18th Jul, 2025",
+            title: "The MVP ft. Ravindra Jadeja",
+            views: "33.2 k",
+            duration: "02:29 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375306164112-1751869076.jpg",
-            date: "7th Jul, 2025",
-            title: "Special win and special reactions from Edgbaston",
-            views: "36.1k",
-            duration: "02:26 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375735272112-1752734112.jpg",
+            date: "17th Jul, 2025",
+            title: "India U19's Day out at Lord's",
+            views: "23.2k",
+            duration: "02:31 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375305873112-1751858245.jpg",
-            date: "7th Jul, 2025",
-            title: "Pitch side with the Captain Shubman Gill",
-            views: "30.2k",
-            duration: "01:54 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375684176112-1752605647.jpg",
+            date: "15th Jul, 2025",
+            title: "Team India meets His Majesty",
+            views: "29.5 k ",
+            duration: "01:23 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375266792112-1751680109.jpg",
@@ -193,24 +193,59 @@ function Video() {
 
     const pressConfrence = [
         {
+            img: "https://brightcove.iplt20.com/output/input/6375762393112-1752771029.jpg",
+            date: "17th Jul, 2025",
+            title: "Managing the team environment is very important: Ryan ten...",
+            views: "5.5k",
+            duration: "06:20 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375666451112-1752565829.jpg",
+            date: "15th Jul, 2025",
+            title: "I am proud of the effort we put in the Test: Shubman Gill",
+            views: "7.9k",
+            duration: "09:02 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375627292112-1752479238.jpg",
+            date: "14th Jul, 2025",
+            title: "I had solid plans coming into this Test match: Washington...",
+            views: "9.3k",
+            duration: "05:53 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375606428112-1752400469.jpg",
+            date: "13th Jul, 2025",
+            title: "My mindset, hunger, and passion has always been ther...",
+            views: "8.2k",
+            duration: "09:51 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375576677112-1752310034.jpg",
+            date: "12th Jul, 2025",
+            title: "The memories you make on field are more important: Jasprit...",
+            views: "8.3k",
+            duration: "06:26 mins"
+        },
+        {
             img: "https://brightcove.iplt20.com/output/input/6375525234112-1752218710.jpg",
             date: "11th Jul, 2025",
             title: "Happy with the way I bowled today: Nitish Kumar Reddy",
-            views: "313",
+            views: "8.8k",
             duration: "005:03 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375450611112-1752074673.jpg",
             date: "9th Jul, 2025",
             title: "I like to bat with a very clear mindset: Rishabh Pant",
-            views: "4.7k",
+            views: "9.6k",
             duration: "05:28 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375379063112-1751992510.jpg",
             date: "8th Jul, 2025",
             title: "Rishabh Pant approaches his batting with lots of planning;...",
-            views: "1.8k",
+            views: "10.8k",
             duration: "08:55 mins"
         },
         {
@@ -240,27 +275,6 @@ function Video() {
             title: "Shubman is looking extremely confident as a batter: Jadeja",
             views: "15.4 k",
             duration: "07:32 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375196119112-1751525722.jpg",
-            date: "3rd Jul, 2025",
-            title: "I want to keep learning and enjoy the game: Yashasvi...",
-            views: "12.5 k",
-            duration: "04:26 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375098273112-1751382312.jpg",
-            date: "1st Jul, 2025",
-            title: "We will take a call on Jasprit Bumrah – Shubman Gill",
-            views: "14.5 k",
-            duration: "11:32 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375053146112-1751298449.jpg",
-            date: "30th Jun, 2025",
-            title: "We want to get the basic fundamentals in place: Ryan t...",
-            views: "13.3 k",
-            duration: "06:22 mins"
         }
     ];
 

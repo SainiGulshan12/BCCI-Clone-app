@@ -7,7 +7,7 @@ import { FaPlay } from "react-icons/fa";
 
 function Home() {
   return (
-    <section className="home-section"> domestic/women
+    <section className="home-section">
       <div className="quick-links d-flex align-items-center">
         <p>Quick Links</p>
         <ul className="quick-links-items d-flex ps-0">
@@ -21,7 +21,7 @@ function Home() {
       </div>
       <div className="hero-banner">
         <div className="overlay">
-          {/* <div id="carouselExampleAutoplaying" className="carousel slide homecarousel" data-bs-ride="carousel" data-bs-interval="4000">
+          <div id="carouselExampleAutoplaying" className="carousel slide homecarousel" data-bs-ride="carousel" data-bs-interval="4000">
             <div className="carousel-indicators homecarousel-indicators z-3">
               <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -160,7 +160,7 @@ function Home() {
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
             </button>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

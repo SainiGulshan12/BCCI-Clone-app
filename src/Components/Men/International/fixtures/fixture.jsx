@@ -214,34 +214,34 @@ function Match() {
             <div className="col px-0">
               <div className="card">
                 <div className="card-body p-0 d-flex">
-                  <div className="text-strip">
-                    Youth Test
+                  <div className="text-strip women">
+                    2nd Twenty20
                   </div>
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
-                      <h4>India Mens U19 In England Multiday Series 2025</h4>
-                      <p>1 Hour TO GO</p>
+                      <h4>India A Women Tour Of Australia T20 Series 2025</h4>
+                      <p>3 Weeks to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
                         <div className="flag d-flex align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england U19" />
-                          <b>ENGLAND U19</b>
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/CqCDnjhh7Y1729662126Australia.png" alt="australia" />
+                          <b>AUSTRALIA A<br /> (WOMEN)</b>
                         </div>
                         <div className="vs">
                           <img src={vs} alt="vs" />
                         </div>
                         <div className="flag d-flex justify-content-center align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india U19" />
-                          <b>INDIA U19</b>
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
+                          <b>INDIA A (WOMEN)</b>
                         </div>
                       </div>
                       <div className="date-timing text-center">
-                        20 Jul  - 23 Jul 2025 | 15:30 IST
+                        Sat,9 Aug 2025 | 13:30 IST
                       </div>
                     </div>
                     <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
-                      <p>County Ground, Chelmsford</p>
+                      <p>Great Barrier Reef Arena, Mackay</p>
                       <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
                     </div>
                   </div>
