@@ -176,7 +176,7 @@
 
 .card-body .bottom-part {
     padding: 7px 15px;
-    border-top: 1px solid var(--secondary-color-rgba1);
+    border-top: 1px solid var(--primary-color-rgba1);
     letter-spacing: .55px;
 }
 

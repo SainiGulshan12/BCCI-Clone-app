@@ -63,12 +63,12 @@ function Match() {
               <div className="card">
                 <div className="card-body p-0 d-flex">
                   <div className="text-strip Wodi-U19">
-                    2nd ODI
+                    3rd ODI
                   </div>
                   <div className="card-details">
-                    <div className="card-top d-flex align-items-center justify-content-between h-25">
-                      <h4>INDIA WOMEN IN ENGLAND ODI SERIES 2025</h4>
-                      <p>22 HOURS TO GO</p>
+                    <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
+                      <h4>India women  In England Odi Series 2025</h4>
+                      <p>2 days to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -85,11 +85,125 @@ function Match() {
                         </div>
                       </div>
                       <div className="date-timing text-center">
-                        Sat,19 Jul 2025 | 15:30 IST
+                        Tue,22 Jul 2025 | 17:30 IST
                       </div>
                     </div>
                     <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
-                      <p>Lord's Cricket Ground, London</p>
+                      <p>Riverside Ground , Chester-le-Street</p>
+                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col px-0">
+              <div className="card">
+                <div className="card-body p-0 d-flex">
+                  <div className="text-strip ">
+                    4th Test
+                  </div>
+                  <div className="card-details">
+                    <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
+                      <h4>India Tour Of England Test Series 2025</h4>
+                      <p>3 days to go</p>
+                    </div>
+                    <div className="card-center h-50 d-flex flex-column">
+                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
+                        <div className="flag d-flex align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
+                          <b>ENGLAND</b>
+                        </div>
+                        <div className="vs">
+                          <img src={vs} alt="vs" />
+                        </div>
+                        <div className="flag d-flex justify-content-center align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
+                          <b>INDIA</b>
+                        </div>
+                      </div>
+                      <div className="date-timing text-center">
+                        23 Jul  - 27 Jul 2025 | 15:30 IST
+                      </div>
+                    </div>
+                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
+                      <p>Old Trafford, Manchester</p>
+                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col px-0">
+              <div className="card">
+                <div className="card-body p-0 d-flex">
+                  <div className="text-strip">
+                    5th Test
+                  </div>
+                  <div className="card-details">
+                    <div className="card-top d-flex align-items-center justify-content-between h-25">
+                      <h4>india Tour of england test series 2025</h4>
+                      <p>2 weeks to go</p>
+                    </div>
+                    <div className="card-center h-50 d-flex flex-column">
+                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
+                        <div className="flag d-flex align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
+                          <b>ENGLAND</b>
+                        </div>
+                        <div className="vs">
+                          <img src={vs} alt="vs" />
+                        </div>
+                        <div className="flag d-flex justify-content-center align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
+                          <b>INDIA</b>
+                        </div>
+                      </div>
+                      <div className="date-timing text-center">
+                        31 Jul  - 4 Aug 2025 | 15:30 IST
+                      </div>
+                    </div>
+                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
+                      <p>Kennington Oval, London</p>
+                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col px-0">
+              <div className="card">
+                <div className="card-body p-0 d-flex">
+                  <div className="text-strip women">
+                    1st Twenty20
+                  </div>
+                  <div className="card-details">
+                    <div className="card-top d-flex align-items-center justify-content-between h-25">
+                      <h4>India A Women Tour Of Australia T20 Series 2025</h4>
+                      <p>3 Weeks to go</p>
+                    </div>
+                    <div className="card-center h-50 d-flex flex-column">
+                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
+                        <div className="flag d-flex align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/CqCDnjhh7Y1729662126Australia.png" alt="australia" />
+                          <b>AUSTRALIA A<br /> (WOMEN)</b>
+                        </div>
+                        <div className="vs">
+                          <img src={vs} alt="vs" />
+                        </div>
+                        <div className="flag d-flex justify-content-center align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
+                          <b>INDIA A (WOMEN)</b>
+                        </div>
+                      </div>
+                      <div className="date-timing text-center">
+                        Thu,7 Aug 2025 | 13:30 IST
+                      </div>
+                    </div>
+                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
+                      <p>Great Barrier Reef Arena, Mackay</p>
                       <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
                     </div>
                   </div>
@@ -106,7 +220,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
                       <h4>India Mens U19 In England Multiday Series 2025</h4>
-                      <p>1 DAY TO GO</p>
+                      <p>1 Hour TO GO</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -135,38 +249,52 @@ function Match() {
               </div>
             </div>
 
+          </div>
+        </div>
+
+        <div className="tab-pane fade" id="pills-results" role="tabpanel" aria-labelledby="pills-results-tab" tabIndex={0}>
+          <div className="my-fixtures row flex-nowrap" ref={resultsRef}>
+
             <div className="col px-0">
               <div className="card">
                 <div className="card-body p-0 d-flex">
                   <div className="text-strip Wodi-U19">
-                    3rd ODI
+                    2nd ODI
                   </div>
                   <div className="card-details">
-                    <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
-                      <h4>India women  In England Odi Series 2025</h4>
-                      <p>4 days to go</p>
+                    <div className="card-top text-uppercase align-content-center h-25">
+                      <h4>India Women In England odi Series 2025</h4>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
-                          <b>ENGLAND <br /> (WOMEN)</b>
+                        <div className="flag d-flex justify-content-start align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/xwbqvMolZz1729662687ECB.png" alt="England U19" />
+                          <div className="score">
+                            <span>England (Women)</span>
+                            <p><b>116 - 2</b><span> (21.0 Ov)</span></p>
+                          </div>
                         </div>
                         <div className="vs">
                           <img src={vs} alt="vs" />
                         </div>
-                        <div className="flag d-flex justify-content-center align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA (WOMEN)</b>
+                        <div className="flag d-flex align-items-center justify-content-end w-50">
+                          <div className="score text-end">
+                            <span>India (Women)</span>
+                            <p><b>143 - 8</b><span> (29.0 Ov)</span></p>
+                          </div>
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="India U19" />
                         </div>
                       </div>
-                      <div className="date-timing text-center">
-                        Tue,22 Jul 2025 | 17:30 IST 
+                      <div className="date-timing result text-center">
+                        England (Women) Won by 8  Wickets  (D/L Method)
                       </div>
                     </div>
-                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
-                      <p>Riverside Ground , Chester-le-Street</p>
-                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
+                    <div className="card-bottom h-25 px-3">
+                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
+                        <p>Lord's Cricket Ground, London</p>
+                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
+                      </div>
+                      <span>Sat,19 Jul 2025 | 15:30 IST</span>
                     </div>
                   </div>
                 </div>
@@ -176,35 +304,43 @@ function Match() {
             <div className="col px-0">
               <div className="card">
                 <div className="card-body p-0 d-flex">
-                  <div className="text-strip ">
-                    Youth Test
+                  <div className="text-strip Wodi-U19">
+                    1st ODI
                   </div>
                   <div className="card-details">
-                    <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
-                      <h4>India Mens U19 In England Multiday Series 2025</h4>
-                      <p>1 Hour to go</p>
+                    <div className="card-top text-uppercase align-content-center h-25">
+                      <h4>India Women In England Odi Series 2025</h4>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
-                          <b>ENGLAND U19</b>
+                        <div className="flag d-flex justify-content-start align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/xwbqvMolZz1729662687ECB.png" alt="England u19" />
+                          <div className="score ">
+                            <span>England (Women)</span>
+                            <p><b>258 - 6</b><span> (50.0 Ov)</span></p>
+                          </div>
                         </div>
                         <div className="vs">
                           <img src={vs} alt="vs" />
                         </div>
-                        <div className="flag d-flex justify-content-center align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA U19</b>
+                        <div className="flag d-flex align-items-center justify-content-end w-50">
+                          <div className="score text-end">
+                            <span>India (Women)</span>
+                            <p><b>262 - 6</b><span> (48.2 Ov)</span></p>
+                          </div>
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp " alt="India u19" />
                         </div>
                       </div>
-                      <div className="date-timing text-center">
-                        12 Jul  - 15 Jul 2025 | 15:30 IST
+                      <div className="date-timing result text-center">
+                        India (Women) Won by 4  Wickets
                       </div>
                     </div>
-                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
-                      <p>Kent County Cricket Ground, Beckenham</p>
-                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
+                    <div className="card-bottom h-25 px-3">
+                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
+                        <p>The Rose Bowl, Southamptonr</p>
+                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
+                      </div>
+                      <span>Wed,16 Jul 2025 | 17:30 IST</span>
                     </div>
                   </div>
                 </div>
@@ -218,143 +354,6 @@ function Match() {
                     5th T20I
                   </div>
                   <div className="card-details">
-                    <div className="card-top d-flex align-items-center justify-content-between h-25">
-                      <h4>INDIA WOMEN IN ENGLAND T20 SERIES 2025</h4>
-                      <p>8 HOUR TO GO</p>
-                    </div>
-                    <div className="card-center h-50 d-flex flex-column">
-                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
-                          <b>ENGLAND <br /> (WOMEN)</b>
-                        </div>
-                        <div className="vs">
-                          <img src={vs} alt="vs" />
-                        </div>
-                        <div className="flag d-flex justify-content-center align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA (WOMEN)</b>
-                        </div>
-                      </div>
-                      <div className="date-timing text-center">
-                        Sat,12 Jul 2025 | 23:05 IST
-                      </div>
-                    </div>
-                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
-                      <p>Edgbaston, Birmingham</p>
-                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-          </div>
-        </div>
-        <div className="tab-pane fade" id="pills-results" role="tabpanel" aria-labelledby="pills-results-tab" tabIndex={0}>
-          <div className="my-fixtures row flex-nowrap" ref={resultsRef}>
-
-            <div className="col px-0">
-              <div className="card">
-                <div className="card-body p-0 d-flex">
-                  <div className="text-strip Wodi-U19">
-                    Youth List-A Match
-                  </div>
-                  <div className="card-details">
-                    <div className="card-top text-uppercase align-content-center h-25">
-                      <h4>India Mens U19 In England Odi Series 2025</h4>
-                    </div>
-                    <div className="card-center h-50 d-flex flex-column">
-                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex justify-content-start align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/xwbqvMolZz1729662687ECB.png" alt="England u19" />
-                          <div className="score ">
-                            <span>England U19</span>
-                            <p><b>211 - 3</b><span> (31.1 Ov)</span></p>
-                          </div>
-                        </div>
-                        <div className="vs">
-                          <img src={vs} alt="vs" />
-                        </div>
-                        <div className="flag d-flex align-items-center justify-content-end w-50">
-                          <div className="score text-end">
-                            <span>India U19</span>
-                            <p><b>210 - 9</b><span> (50.0 Ov)</span></p>
-                          </div>
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp " alt="India u19" />
-                        </div>
-                      </div>
-                      <div className="date-timing result text-center">
-                        England U19 Won by 7 Wickets
-                      </div>
-                    </div>
-                    <div className="card-bottom h-25 px-3">
-                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
-                        <p>The County Ground, New Road, Worcester</p>
-                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
-                      </div>
-                      <span>Mon,7 Jul 2025 | 15:30 IST</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col px-0">
-              <div className="card">
-                <div className="card-body p-0 d-flex">
-                  <div className="text-strip Wodi-U19">
-                    Youth List-A Match
-                  </div>
-                  <div className="card-details">
-                    <div className="card-top text-uppercase align-content-center h-25">
-                      <h4>India Mens U19 In England Odi Series 2025</h4>
-                    </div>
-                    <div className="card-center h-50 d-flex flex-column">
-                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex justify-content-start align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/xwbqvMolZz1729662687ECB.png" alt="England U19" />
-                          <div className="score">
-                            <span>England U19</span>
-                            <p><b>308</b><span> (45.3 Ov)</span></p>
-                          </div>
-                        </div>
-                        <div className="vs">
-                          <img src={vs} alt="vs" />
-                        </div>
-                        <div className="flag d-flex align-items-center justify-content-end w-50">
-                          <div className="score text-end">
-                            <span>India U19</span>
-                            <p><b>363 - 9</b><span> (50.0 Ov)</span></p>
-                          </div>
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="India U19" />
-                        </div>
-                      </div>
-                      <div className="date-timing result text-center">
-                        India U19 Won by 55 Runs
-                      </div>
-                    </div>
-                    <div className="card-bottom h-25 px-3">
-                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
-                        <p>The County Ground, New Road, Worcester</p>
-                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
-                      </div>
-                      <span>Sat,5 Jul 2025 | 15:30 IST</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col px-0">
-              <div className="card">
-                <div className="card-body p-0 d-flex">
-                  <div className="text-strip women">
-                    3rd T20I
-                  </div>
-                  <div className="card-details">
                     <div className="card-top align-content-center h-25">
                       <h4>India Women In England T20 Series 2025</h4>
                     </div>
@@ -364,7 +363,7 @@ function Match() {
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
                           <div className="score">
                             <span>England (Women)</span>
-                            <p><b>171 - 9</b><span> (20.0 Ov)</span></p>
+                            <p><b>168 - 5</b><span> (20.0 Ov)</span></p>
                           </div>
                         </div>
                         <div className="vs">
@@ -373,46 +372,45 @@ function Match() {
                         <div className="flag d-flex justify-content-end align-items-center w-50">
                           <div className="score text-end">
                             <span>India (Women)</span>
-                            <p><b>166 - 5</b><span> (20.0 Ov)</span></p>
+                            <p><b>167 - 7</b><span> (20.0 Ov)</span></p>
                           </div>
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
                         </div>
                       </div>
                       <div className="date-timing result text-center">
-                        England (Women) Won by 5  Runs
+                        England (Women) Won by 5  Wickets
                       </div>
                     </div>
                     <div className="card-bottom h-25 px-3">
                       <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
-                        <p>Kennington Oval, London</p>
+                        <p>Edgbaston, Birmingham</p>
                         <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
                       </div>
-                      <span>Fri,4 Jul 2025 | 23:05 IST</span>
+                      <span>Sat,12 Jul 2025 | 23:05 IST</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-
-
             <div className="col px-0">
               <div className="card">
                 <div className="card-body p-0 d-flex">
-                  <div className="text-strip Wodi-U19">
-                    Youth List-A Match
+                  <div className="text-strip">
+                    Youth Test
                   </div>
                   <div className="card-details">
-                    <div className="card-top text-uppercase align-content-center h-25">
-                      <h4>India Mens U19 In England Odi Series 2025</h4>
+                    <div className="card-top align-content-center h-25">
+                      <h4>India Mens u19 in england multiday Series 2025</h4>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
                         <div className="flag d-flex align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/xwbqvMolZz1729662687ECB.png" alt="England U19" />
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
                           <div className="score">
                             <span>England U19</span>
-                            <p><b>268 - 6</b><span> (40.0 Ov)</span></p>
+                            <p><b>439</b><span> (114.5 Ov)</span></p>
+                            <p><b>270 - 7</b><span> (63.0 Ov)</span></p>
                           </div>
                         </div>
                         <div className="vs">
@@ -420,34 +418,34 @@ function Match() {
                         </div>
                         <div className="flag d-flex justify-content-end align-items-center w-50">
                           <div className="score text-end">
-                            <span>India U19</span>
-                            <p><b>274 - 6</b><span> (34.3 Ov)</span></p>
+                            <span>INDIA</span>
+                            <p><b>540</b><span> (112.5 Ov)</span></p>
+                            <p><b>248</b><span> (57.4 Ov)</span></p>
                           </div>
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india U19" />
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
                         </div>
                       </div>
                       <div className="date-timing result text-center">
-                        India U19 Won by 4 Wickets
+                        Match drawn
                       </div>
                     </div>
-                    <div className="card-bottom h-25 px-3">
-                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
-                        <p>County Ground, Northampton</p>
+                    <div className="card-bottom h-25 px-3 d-flex flex-column justify-content-center">
+                      <div className="ground-time d-flex justify-content-between">
+                        <p>Kent County Cricket Ground, Beckenham</p>
                         <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
                       </div>
-                      <span>Wed,2 Jul 2025 | 15:30 IST</span>
+                      <span>12 Jul  - 15 Jul 2025 | 15:30 IST</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-
             <div className="col px-0">
               <div className="card">
                 <div className="card-body p-0 d-flex">
                   <div className="text-strip">
-                    2nd Test
+                    3rd Test
                   </div>
                   <div className="card-details">
                     <div className="card-top align-content-center h-25">
@@ -459,8 +457,8 @@ function Match() {
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
                           <div className="score">
                             <span>England</span>
-                            <p><b>407</b><span> (89.3 Ov)</span></p>
-                            <p><b>271</b><span> (68.1 Ov)</span></p>
+                            <p><b>387</b><span> (112.3 Ov)</span></p>
+                            <p><b>192</b><span> (62.1 Ov)</span></p>
                           </div>
                         </div>
                         <div className="vs">
@@ -469,22 +467,22 @@ function Match() {
                         <div className="flag d-flex justify-content-end align-items-center w-50">
                           <div className="score text-end">
                             <span>INDIA</span>
-                            <p><b>587</b><span> (151.0 Ov)</span></p>
-                            <p><b>427 - 6 d</b><span> (83.0 <br />Ov)</span></p>
+                            <p><b>387</b><span> (119.2 Ov)</span></p>
+                            <p><b>170</b><span> (74.5 Ov)</span></p>
                           </div>
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
                         </div>
                       </div>
                       <div className="date-timing result text-center">
-                        India Won by 336  Runs
+                        England Won by 22  Runs
                       </div>
                     </div>
                     <div className="card-bottom h-25 px-3 d-flex flex-column justify-content-center">
                       <div className="ground-time d-flex justify-content-between">
-                        <p>Edgbaston, Birmingham</p>
+                        <p>Lord's Cricket Ground, London</p>
                         <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
                       </div>
-                      <span>2 Jul - 6 Jul 2025 | 15:30 IST</span>
+                      <span>10 Jul - 14 Jul 2025 | 15:30 IST</span>
                     </div>
                   </div>
                 </div>

@@ -19,6 +19,11 @@ import Newsdm from "./Components/Men/Domestic/News/news";
 import Honoursdm from "./Components/Men/Domestic/Honours/honours";
 
 import Homeiw from "./Components/Women/International/Home/home";
+import Videoiw from "./Components/Women/International/Videos/video";
+import Newsiw from './Components/Women/International/News/news';
+import Rankiw from './Components/Women/International/Ranking/rank';
+import Captainiw from './Components/Women/International/CaptainCorner/captain';
+import Shopiw from "./Components/Women/International/shopPassion/shop";
 
 import Homedw from "./Components/Women/Domestic/Home/home";
 
@@ -47,7 +52,7 @@ function App() {
 
         {/* International Men Route */}
         <Route path="/international/women" element={
-          <> <Homeiw /> <Match/> </>} />
+          <> <Homeiw /> <Match /> <Videoiw /> <Newsiw /> <Rankiw/> <Download/> <Captainiw/> <Shopiw/> <Photo/> <Footer/> </>} />
 
         {/* Domestic Women Route */}
         <Route path="/domestic/women" element={

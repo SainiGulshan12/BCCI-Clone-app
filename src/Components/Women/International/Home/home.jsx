@@ -34,6 +34,26 @@ function Home() {
                         <div className="carousel-inner homecarousel-inner">
                             <div className="carousel-item active">
                                 <div className="img-wrapper">
+                                    <img src="https://brightcove.iplt20.com/output/input/6375831777112-1752902654.jpg" alt="Lord's Calling: A special video call ft. Harmanpreet Kaur, Jemimah Rodrigues & Jhulan Goswami" />
+                                </div>
+                                <div className="carousel-caption d-md-block">
+                                    <button>Video</button>
+                                    <h3>Lord's Calling: A special video call ft. Harmanpreet Kaur, Jemimah Rodrigues &...</h3>
+                                    <div className="d-flex align-items-center gap-4 pb-1">
+                                        <p>19th Jul, 2025</p>
+                                        <div className="d-flex align-items-center gap-2">
+                                            <FontAwesomeIcon icon={faEye} />
+                                            <p className='p-0'>1.7 k</p>
+                                        </div>
+                                        <IoShareSocialOutline className='share-icon' />
+                                    </div>
+                                </div>
+                                <div className="play">
+                                    <FaPlay />
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className="img-wrapper">
                                     <img src="https://brightcove.iplt20.com/output/input/6375737604112-1752734110.jpg" alt="Team India's Scintillating Southampton Tales after ODI win" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
@@ -63,7 +83,7 @@ function Home() {
                                         <p>16th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>2.2k</p>
+                                            <p className='p-0'>2.7k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -83,7 +103,7 @@ function Home() {
                                         <p>15th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>19.5 k</p>
+                                            <p className='p-0'>28.5 k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -103,7 +123,7 @@ function Home() {
                                         <p>15th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>2.2 k</p>
+                                            <p className='p-0'>2.3 k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -123,7 +143,7 @@ function Home() {
                                         <p>13th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>1.8k</p>
+                                            <p className='p-0'>2.2</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -132,26 +152,7 @@ function Home() {
                                     <FaPlay />
                                 </div>
                             </div>
-                            <div className="carousel-item">
-                                <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375576681112-1752309633.jpg" alt="Future watching the present: India U19's Day Out at Edgbaston" />
-                                </div>
-                                <div className="carousel-caption d-md-block">
-                                    <button>Video</button>
-                                    <h3>Sree Charani's story of passion, determination & talent</h3>
-                                    <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>12th Jul, 2025</p>
-                                        <div className="d-flex align-items-center gap-2">
-                                            <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>2.1 kk</p>
-                                        </div>
-                                        <IoShareSocialOutline className='share-icon' />
-                                    </div>
-                                </div>
-                                <div className="play">
-                                    <FaPlay />
-                                </div>
-                            </div>
+                            
                         </div>
                         <button className="carousel-control-prev z-3" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>

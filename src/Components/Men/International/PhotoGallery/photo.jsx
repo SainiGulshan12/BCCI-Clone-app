@@ -21,6 +21,22 @@ function Photo() {
 
     const gallery_img = [
         {
+            img1: "https://assets.bcci.tv/bcci/photos/1638/b8558b32-c3cc-4ca0-88c6-6636a02cd8c2.jpg",
+            desciption1: "India Women Tour of England 2025 - 1st ODI",
+            btn1: "52",
+            img2: "https://assets.bcci.tv/bcci/photos/1630/3dc2cdf2-4837-4f11-ad77-e536046411c3.jpg",
+            desciption2: "India Tour of England 2025 - 3rd Test",
+            btn2: "59",
+        },
+        {
+            img1: "https://assets.bcci.tv/bcci/photos/1637/47b07f13-1aed-4458-b567-becc6f49b975.jpg",
+            desciption1: "India Women Tour of England 2025 - 5th T20I",
+            btn1: "39",
+            img2: "https://assets.bcci.tv/bcci/photos/1636/b4dced86-d706-4a36-ab5c-c4d1ed2d9264.jpg",
+            desciption2: "India Women Tour of England 2025 - 4th T20I",
+            btn2: "32",
+        },
+        {
             img1: "https://assets.bcci.tv/bcci/photos/1635/6fce383c-09ef-46d9-abae-39ef1c08511c.jpg",
             desciption1: "India Women Tour of England 2025 - 3rd T20I",
             btn1: "19",
