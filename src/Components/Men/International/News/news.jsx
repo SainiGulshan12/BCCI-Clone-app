@@ -18,14 +18,24 @@ function News() {
             </div>
             <div className="news-content d-flex">
                 <div className="cover-img d-flex position-relative">
-                    <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="Rescheduling of India’s white-ball Tour of Bangladesh" />
+                    <img src="https://assets.bcci.tv/bcci/articles/1753066781_Website_Thumbnail.png" alt="Rescheduling of India’s white-ball Tour of Bangladesh" />
                     <div className="coverImg-caption position-absolute bottom-0">
                         <button className='newsbtn'>News</button>
-                        <h2>Board of Control for Cricket in India (BCCI) invites proposals for accreditation services</h2>
-                        <p className="d-flex align-items-center justify-content-between">18th July, 2025 <span> <IoShareSocialOutline className='shareIcon' /> </span> </p>
+                        <h2>Squad Update: Nitish Kumar Reddy ruled out of the series. Arshdeep Singh ruled out of fourth Test</h2>
+                        <p className="d-flex align-items-center justify-content-between">21st July, 2025 <span> <IoShareSocialOutline className='shareIcon' /> </span> </p>
                     </div>
                 </div>
                 <div className="side-news-content">
+                    <div className="side-news">
+                        <div className="side-cover-img">
+                            <img src="https://assets.bcci.tv/bcci/articles/1747404106_BCCI_Thumbnail.png" alt="India A’s squad for tour of England announced" />
+                        </div>
+                        <div className="news-text">
+                            <h6>18th July, 2025 </h6>
+                            <h3>Board of Control for Cricket in India (BCCI) invites proposals for accreditation...</h3>
+                        </div>
+                        <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
+                    </div>
                     <div className="side-news">
                         <div className="side-cover-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="Rescheduling of India’s white-ball Tour of Bangladesh" />
@@ -41,7 +51,7 @@ function News() {
                             <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="BCCI invites proposals for provision of broadcast graphics services for BCCI’s domestic seasons" />
                         </div>
                         <div className="news-text">
-                            <h6>3rd July, 2025</h6>
+                            <h6>03rd July, 2025</h6>
                             <h3>BCCI invites proposals for provision of broadcast graphics services for BCCI’s...</h3>
                         </div>
                         <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
@@ -86,16 +96,7 @@ function News() {
                         </div>
                         <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
                     </div>
-                    <div className="side-news">
-                        <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1747404106_BCCI_Thumbnail.png" alt="India A’s squad for tour of England announced" />
-                        </div>
-                        <div className="news-text">
-                            <h6>14th June, 2025 </h6>
-                            <h3>Update – 28th Apex Council Meeting</h3>
-                        </div>
-                        <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
-                    </div>
+
                 </div>
             </div>
         </section>

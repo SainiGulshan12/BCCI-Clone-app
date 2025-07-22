@@ -26,6 +26,8 @@ import Captainiw from './Components/Women/International/CaptainCorner/captain';
 import Shopw from "./Components/Women/International/shopPassion/shop";
 
 import Homedw from "./Components/Women/Domestic/Home/home";
+import Videodw from "./Components/Women/Domestic/Videos/video";
+import Newsdw from './Components/Women/Domestic/News/news';
 
 function App() {
   return (
@@ -56,7 +58,7 @@ function App() {
 
         {/* Domestic Women Route */}
         <Route path="/domestic/women" element={
-          <> <Homedw /> <Shopw/> <Download/> <Photo/> <Footer/> </>} />
+          <> <Homedw /> <Videodw/> <Newsdw/> <Shopw/> <Download/> <Photo/> <Footer/> </>} />
 
       </Routes>
     </div>
