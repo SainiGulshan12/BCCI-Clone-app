@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useRef,useState} from 'react';
 import './video.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -207,6 +207,36 @@ function Video() {
         }
     ];
 
+    const [activeTab, setactiveTab] = useState('latest');
+
+    const latestref = useRef(null);
+    const highlightref = useRef(null);
+    const featureref = useRef(null);
+
+    const scrollLeft = () => {
+        if (activeTab === 'latest' && latestref.current) {
+            latestref.current.scrollLeft -= 1275;
+        }
+        else if (activeTab === 'highlight' && highlightref.current) {
+            highlightref.current.scrollLeft -= 1275;
+        }
+        else if (activeTab === 'features' && featureref.current) {
+            featureref.current.scrollLeft -= 1275;
+        }
+    }
+    const scrollRight = () => {
+        if (activeTab === 'latest' && latestref.current) {
+            latestref.current.scrollLeft += 1275;
+        }
+        else if (activeTab === 'highlight' && highlightref.current) {
+            highlightref.current.scrollLeft += 1275;
+        }
+        else if (activeTab === 'features' && featureref.current) {
+            featureref.current.scrollLeft += 1275;
+        }
+    }
+
+
     return (
         <section className="video-section mt-3" id="video">
             <div className="container-fluid ps-0">
@@ -215,19 +245,19 @@ function Video() {
                         <h1>Videos</h1>
                         <ul className="nav nav-pills" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link active" id="pills-latest-tab" data-bs-toggle="pill" data-bs-target="#pills-latest" type="button">Latest</button>
+                                <button className="nav-link active" id="pills-latest-tab" data-bs-toggle="pill" data-bs-target="#pills-latest" type="button" onClick={()=>setactiveTab('latest')}>Latest</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="pills-Highlights-tab" data-bs-toggle="pill" data-bs-target="#pills-Highlights" type="button">Highlights</button>
+                                <button className="nav-link" id="pills-Highlights-tab" data-bs-toggle="pill" data-bs-target="#pills-Highlights" type="button" onClick={()=>setactiveTab('highlight')}>Highlights</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="pills-Features -tab" data-bs-toggle="pill" data-bs-target="#pills-Features" type="button">Features & Interviews</button>
+                                <button className="nav-link" id="pills-Features -tab" data-bs-toggle="pill" data-bs-target="#pills-Features" type="button" onClick={()=>setactiveTab('features')}>Features & Interviews</button>
                             </li>
                         </ul>
                     </div>
                     <div className="seeall-arrow d-flex align-items-center justify-content-end gap-4">
-                        <FontAwesomeIcon icon={faAngleLeft} className='angle-icon' />
-                        <FontAwesomeIcon icon={faAngleRight} className='angle-icon' />
+                        <FontAwesomeIcon icon={faAngleLeft} className='angle-icon' onClick={scrollLeft}/>
+                        <FontAwesomeIcon icon={faAngleRight} className='angle-icon' onClick={scrollRight}/>
                         <div className="seeall d-flex align-items-center gap-2">
                             <p>SEE ALL</p>
                             <FontAwesomeIcon icon={faArrowRight} className='arrow-icon' />
@@ -236,7 +266,7 @@ function Video() {
                 </div>
                 <div className="tab-content" id="pills-tabContent" >
                     <div className="tab-pane fade show active" id="pills-latest" role="tabpanel" aria-labelledby="pills-latest-tab" tabIndex={0}>
-                        <div className="card-group video-card domestic-video-card">
+                        <div className="card-group video-card domestic-video-card" ref={latestref}>
                             {latestVideos.map((video, index) => (
                                 <div className="card" key={index}>
                                     <img src={video.img} className='card-img-top' alt={video.title} />
@@ -258,7 +288,7 @@ function Video() {
                     </div>
 
                     <div className="tab-pane fade" id="pills-Highlights" role="tabpanel" aria-labelledby="pills-Highlights-tab" tabIndex={0} >
-                        <div className="card-group video-card domestic-video-card">
+                        <div className="card-group video-card domestic-video-card" ref={highlightref}>
                             {highlights.map((video, index) => (
                                 <div className="card" key={index}>
                                     <img src={video.img} className='card-img-top' alt={video.title} />
@@ -280,7 +310,7 @@ function Video() {
                     </div>
 
                     <div className="tab-pane fade" id="pills-Features" role="tabpanel" aria-labelledby="pills-Features-tab" tabIndex={0}>
-                        <div className="card-group video-card domestic-video-card">
+                        <div className="card-group video-card domestic-video-card" ref={featureref}>
                             {features.map((video, index) => (
                                 <div className="card" key={index}>
                                     <img src={video.img} className='card-img-top' alt={video.title} />

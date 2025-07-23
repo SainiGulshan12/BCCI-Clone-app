@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './rank.css';
 import { Carousel } from 'bootstrap';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -38,20 +39,13 @@ function Rank() {
                         <div className="ranks d-flex position-relative">
                             <div className="blue-ranks">
                                 <p>Team Ranking</p>
-                                <div className="team-ranking d-flex w-100 bor-bottom">
-                                    <div className="half-block bor-right w-50">
-                                        <span><sub>TEST</sub>#03</span>
-                                    </div>
-                                    <div className="half-block w-50">
-                                        <span><sub>ODI</sub>#03</span>
-                                    </div>
+                                <div className="team-ranking_odi d-flex bor-bottom">
+                                    <span>#03<sub>ODI</sub></span>
                                 </div>
-                                <div className="team-ranking w-100 ">
-                                    <div className="full-block w-100">
-                                        <span>#<sub>T20</sub></span>
-                                        <div className="bcci-logo">
-                                            <img src="https://documents.bcci.tv/web-images/bcci-logo.webp" alt="bcci-logo" />
-                                        </div>
+                                <div className="team-ranking_t20 ">
+                                    <span>#03<sub>T20</sub></span>
+                                    <div className="bcci-logo">
+                                        <img src="https://documents.bcci.tv/web-images/bcci-logo.webp" alt="bcci-logo" />
                                     </div>
                                 </div>
                             </div>

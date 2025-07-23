@@ -1,0 +1,33 @@
+.blue-ranks .team-ranking_odi,.team-ranking_t20 {
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 13px;
+    overflow: hidden;
+}
+
+.blue-ranks .team-ranking_odi span ,.team-ranking_t20 span {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+.blue-ranks .team-ranking_odi span sub,.team-ranking_t20 span sub {
+    font-size: 13px;
+    font-weight: 100;
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.blue-ranks .team-ranking_t20 .bcci-logo {
+    position: absolute;
+    bottom: -30px;
+    right: -36px;
+}
+
+.blue-ranks .team-ranking_t20 .bcci-logo img {
+    height: 150px;
+    width: 150px;
+    opacity: .5;
+}

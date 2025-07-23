@@ -1,0 +1,57 @@
+
+.honourscarousel .card-inner .card-items {
+    position: relative;
+    min-width: 323px;
+    height: auto;
+    background-color: var(--honourscarousel-card-items-bg-color);
+    border: 1px solid var(--honourscarousel-card-items-border-color);
+    color: var(--primary-color);
+    border-radius: 8px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.honourscarousel .dom-women-card-inner .card-items h5 {
+    font-family: "Source Sans 3";
+    position: relative;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 68%;
+    text-align: center;
+    opacity: .22;
+}
+
+.honourscarousel .dom-women-card-inner .card-items .trophies {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.honourscarousel .dom-women-card-inner .card-items .trophies span {
+    width: 105px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    opacity: .74;
+}
+
+.honourscarousel .dom-women-card-inner .card-items img {
+    margin: unset;
+    height: 100%;
+}
+
+.honourscarousel .dom-women-card-inner .card-items p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.honourscarousel .dom-women-card-inner .card-items p img{
+    width: 44px;
+    background:var(--primary-color);
+    border-radius: 50%;
+    margin-right: 10px;
+}

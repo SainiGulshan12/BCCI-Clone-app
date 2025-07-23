@@ -80,12 +80,12 @@
     opacity: .22;
 }
 
-.honourscarousel .card-items img {
+.honourscarousel .card-inner .card-items img {
     margin: 50px auto 0;
     height: 180px;
 }
 
-.honourscarousel .card-items p {
+.honourscarousel .card-inner .card-items p {
     font-size: 17px;
     font-weight: 500;
     margin-top: 22px;

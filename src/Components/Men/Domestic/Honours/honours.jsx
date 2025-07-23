@@ -49,7 +49,7 @@ function Honours() {
           <div className="card-items active d-flex flex-column">
             <h5>2024-25</h5>
             <div className="tropies d-flex align-items-center justify-content-around">
-              <img src="https://documents.bcci.tv/bcci/images/Trophy/Ranji.png" alt="ICC World Cup" />
+              <img src="https://documents.bcci.tv/bcci/images/Trophy/Ranji.png" alt="Ranji Trophy" />
               <p>Ranji Trophy</p>
             </div>
             <div className="wining-team d-flex align-items-center justify-content-center">
