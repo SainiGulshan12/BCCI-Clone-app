@@ -9,6 +9,34 @@ function Video() {
 
     const latestVideos = [
         {
+            img: "https://brightcove.iplt20.com/output/input/6375975278112-1753201454.jpg",
+            date: "22nd Jul, 2025",
+            title: "Anshul is very close to making his debut – Shubman Gill",
+            views: "21.5 k",
+            duration: "06:41 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375923349112-1753116913.jpg",
+            date: "21st Jul, 2025",
+            title: "Jasprit Bumrah will play the Manchester Test: Mohd. Siraj",
+            views: "23.1k",
+            duration: "08:07 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375908073112-1753096653.jpg",
+            date: "21st Jul, 2025",
+            title: "Captains Unite(d) ft. Shubman Gill and Bruno Fernandes",
+            views: "28.5k",
+            duration: "01:53 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375903032112-1753085115.jpg",
+            date: "21st Jun, 2025",
+            title: "Manchester United x Team India",
+            views: "35.8k",
+            duration: "02:30 mins"
+        },
+        {
             img: "https://brightcove.iplt20.com/output/input/6375778447112-1752806110.jpg",
             date: "18th Jul, 2025",
             title: "The MVP ft. Ravindra Jadeja",
@@ -35,34 +63,6 @@ function Video() {
             title: "Team India meets His Majesty",
             views: "29.5 k ",
             duration: "01:23 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375666451112-1752565829.jpg",
-            date: "15th Jul, 2025",
-            title: "I am proud of the effort we put in the Test: Shubman Gill",
-            views: "8.5 k",
-            duration: "09:02 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375627292112-1752479238.jpg",
-            date: "14th Jul, 2025",
-            title: "I had solid plans coming into this Test match: Washington...",
-            views: "9.1k",
-            duration: "05:53 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375623384112-1752462312.jpg",
-            date: "14th Jul, 2025",
-            title: "BoWled (th)'em ft. Washington Sundar",
-            views: "29.5k",
-            duration: "01:47 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375606428112-1752400469.jpg",
-            date: "13th Jun, 2025",
-            title: "My mindset, hunger, and passion has always been ther...",
-            views: "8.4k",
-            duration: "09:51 mins"
         }
     ];
 
@@ -127,71 +127,78 @@ function Video() {
 
     const features = [
         {
+            img: "https://brightcove.iplt20.com/output/input/6375908073112-1753096653.jpg",
+            date: "21st Jul, 2025",
+            title: "Captains Unite(d) ft. Shubman Gill and Bruno Fernandes",
+            views: "28.5k",
+            duration: "01:53 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375903032112-1753085115.jpg",
+            date: "21st Jun, 2025",
+            title: "Manchester United x Team India",
+            views: "35.8k",
+            duration: "02:30 mins"
+        },
+        {
             img: "https://brightcove.iplt20.com/output/input/6375778447112-1752806110.jpg",
             date: "18th Jul, 2025",
             title: "The MVP ft. Ravindra Jadeja",
-            views: "33.2 k",
+            views: "56.2 k",
             duration: "02:29 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375735272112-1752734112.jpg",
             date: "17th Jul, 2025",
             title: "India U19's Day out at Lord's",
-            views: "23.2k",
+            views: "46.2k",
             duration: "02:31 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375684176112-1752605647.jpg",
             date: "15th Jul, 2025",
             title: "Team India meets His Majesty",
-            views: "29.5 k ",
+            views: "51.5 k ",
             duration: "01:23 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375266792112-1751680109.jpg",
-            date: "5th Jul, 2025",
-            title: "Birmingham Besties, ft. Mohd. Siraj & Akash Deep",
-            views: "57.8k",
-            duration: "01:56 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375623384112-1752462312.jpg",
+            date: "14th Jul, 2025",
+            title: "BoWled (th)'em ft. Washington Sundar",
+            views: "51.5k",
+            duration: "01:47 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375245783112-1751628910.jpg",
-            date: "4th Jul, 2025",
-            title: "Future watching the present: India U19's Day Out at...",
-            views: "46.7k",
-            duration: "02:26 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375598233112-1752375910.jpg",
+            date: "13th Jul, 2025",
+            title: "Lord's Glory ft. KL Rahul",
+            views: "48.8k",
+            duration: "01:24 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375232423112-1751591110.jpg",
-            date: "4th Jul, 2025",
-            title: "Full Access ft. Captain Shubman Gill",
-            views: "60.9 k",
-            duration: "02:51 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375196124112-1751527271.jpg",
-            date: "3rd Jul, 2025",
-            title: "From the Podium to Pitch ft. Centurion Shubman Gill",
-            views: "65.7k",
-            duration: "02:08 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375010384112-1751196037.jpg",
-            date: "29th Jun, 2025",
-            title: "Catching Up in Birmingham ft. Arshdeep Singh",
-            views: "59.3 k",
-            duration: "02:43 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6374994034112-1751167099.jpg",
-            date: "28th Jun, 2025",
-            title: "ICC Men's T20 World Cup 2024 Champions | One Year Tribute",
-            views: "63.2 k",
-            duration: "1:23 mins"
+            img: "https://brightcove.iplt20.com/output/input/6375570285112-1752289508.jpg",
+            date: "12th Jul, 2025",
+            title: "Jasprit Bumrah, a buzz at the Lord's",
+            views: "52.7k",
+            duration: "02:03 mins"
         }
     ];
 
     const pressConfrence = [
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375975278112-1753201454.jpg",
+            date: "22nd Jul, 2025",
+            title: "Anshul is very close to making his debut – Shubman Gill",
+            views: "21.5 k",
+            duration: "06:41 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375923349112-1753116913.jpg",
+            date: "21st Jul, 2025",
+            title: "Jasprit Bumrah will play the Manchester Test: Mohd. Siraj",
+            views: "23.1k",
+            duration: "08:07 mins"
+        },
         {
             img: "https://brightcove.iplt20.com/output/input/6375762393112-1752771029.jpg",
             date: "17th Jul, 2025",
@@ -261,20 +268,6 @@ function Video() {
             title: "Akash produced a dream delivery to dismiss Root: Mor...",
             views: "17.4 k",
             duration: "06:36 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375267928112-1751694631.jpg",
-            date: "5th Jul, 2025",
-            title: "I was mentally ready to bowl on batting-friendly pitches: Aka...",
-            views: "20.5k",
-            duration: "04:13 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375237932112-1751614510.jpg",
-            date: "4th Jul, 2025",
-            title: "Shubman is looking extremely confident as a batter: Jadeja",
-            views: "15.4 k",
-            duration: "07:32 mins"
         }
     ];
 

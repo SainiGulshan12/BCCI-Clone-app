@@ -62,51 +62,13 @@ function Match() {
             <div className="col px-0">
               <div className="card">
                 <div className="card-body p-0 d-flex">
-                  <div className="text-strip Wodi-U19">
-                    3rd ODI
-                  </div>
-                  <div className="card-details">
-                    <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
-                      <h4>India women  In England Odi Series 2025</h4>
-                      <p>2 days to go</p>
-                    </div>
-                    <div className="card-center h-50 d-flex flex-column">
-                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
-                          <b>ENGLAND <br /> (WOMEN)</b>
-                        </div>
-                        <div className="vs">
-                          <img src={vs} alt="vs" />
-                        </div>
-                        <div className="flag d-flex justify-content-center align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA (WOMEN)</b>
-                        </div>
-                      </div>
-                      <div className="date-timing text-center">
-                        Tue,22 Jul 2025 | 17:30 IST
-                      </div>
-                    </div>
-                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
-                      <p>Riverside Ground , Chester-le-Street</p>
-                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col px-0">
-              <div className="card">
-                <div className="card-body p-0 d-flex">
                   <div className="text-strip ">
                     4th Test
                   </div>
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
                       <h4>India Tour Of England Test Series 2025</h4>
-                      <p>3 days to go</p>
+                      <p>1 hour to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -144,7 +106,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
                       <h4>india Tour of england test series 2025</h4>
-                      <p>2 weeks to go</p>
+                      <p>1 week to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -182,7 +144,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
                       <h4>India A Women Tour Of Australia T20 Series 2025</h4>
-                      <p>3 Weeks to go</p>
+                      <p>2 Weeks to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -220,7 +182,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
                       <h4>India A Women Tour Of Australia T20 Series 2025</h4>
-                      <p>3 Weeks to go</p>
+                      <p>2 Weeks to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -249,11 +211,95 @@ function Match() {
               </div>
             </div>
 
+            <div className="col px-0">
+              <div className="card">
+                <div className="card-body p-0 d-flex">
+                  <div className="text-strip women">
+                    3rd Twenty20
+                  </div>
+                  <div className="card-details">
+                    <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
+                      <h4>India A Women Tour Of Australia T20 Series 2025</h4>
+                      <p>3 weeks to go</p>
+                    </div>
+                    <div className="card-center h-50 d-flex flex-column">
+                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
+                        <div className="flag d-flex align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/CqCDnjhh7Y1729662126Australia.png" alt="australia" />
+                          <b>AUSTRALIA A<br /> (WOMEN)</b>
+                        </div>
+                        <div className="vs">
+                          <img src={vs} alt="vs" />
+                        </div>
+                        <div className="flag d-flex justify-content-center align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
+                          <b>INDIA A (WOMEN)</b>
+                        </div>
+                      </div>
+                      <div className="date-timing text-center">
+                        Sun,10 Aug 2025 | 13:30 IST
+                      </div>
+                    </div>
+                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
+                      <p>Great Barrier Reef Arena, Mackey</p>
+                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
         <div className="tab-pane fade" id="pills-results" role="tabpanel" aria-labelledby="pills-results-tab" tabIndex={0}>
           <div className="my-fixtures row flex-nowrap" ref={resultsRef}>
+
+            <div className="col px-0">
+              <div className="card">
+                <div className="card-body p-0 d-flex">
+                  <div className="text-strip Wodi-U19">
+                    3rd ODI
+                  </div>
+                  <div className="card-details">
+                    <div className="card-top align-content-center h-25">
+                      <h4>India Women In England Odi Series 2025</h4>
+                    </div>
+                    <div className="card-center h-50 d-flex flex-column">
+                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
+                        <div className="flag d-flex align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
+                          <div className="score">
+                            <span>England (Women)</span>
+                            <p><b>305</b><span> (49.5 Ov)</span></p>
+                          </div>
+                        </div>
+                        <div className="vs">
+                          <img src={vs} alt="vs" />
+                        </div>
+                        <div className="flag d-flex justify-content-end align-items-center w-50">
+                          <div className="score text-end">
+                            <span>INDIA (Women)</span>
+                            <p><b>318 - 5</b><span> (50.0 Ov)</span></p>
+                          </div>
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
+                        </div>
+                      </div>
+                      <div className="date-timing result text-center">
+                        India (Women) Won by 13  Runs 
+                      </div>
+                    </div>
+                    <div className="card-bottom h-25 px-3 d-flex flex-column justify-content-center">
+                      <div className="ground-time d-flex justify-content-between">
+                        <p>Riverside Ground, Chester-le-Street</p>
+                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
+                      </div>
+                      <span>Tue,22 Jul 2025 | 17:30 IST</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div className="col px-0">
               <div className="card">
@@ -435,54 +481,6 @@ function Match() {
                         <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
                       </div>
                       <span>12 Jul  - 15 Jul 2025 | 15:30 IST</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col px-0">
-              <div className="card">
-                <div className="card-body p-0 d-flex">
-                  <div className="text-strip">
-                    3rd Test
-                  </div>
-                  <div className="card-details">
-                    <div className="card-top align-content-center h-25">
-                      <h4>India Tour Of England Test Series 2025</h4>
-                    </div>
-                    <div className="card-center h-50 d-flex flex-column">
-                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
-                          <div className="score">
-                            <span>England</span>
-                            <p><b>387</b><span> (112.3 Ov)</span></p>
-                            <p><b>192</b><span> (62.1 Ov)</span></p>
-                          </div>
-                        </div>
-                        <div className="vs">
-                          <img src={vs} alt="vs" />
-                        </div>
-                        <div className="flag d-flex justify-content-end align-items-center w-50">
-                          <div className="score text-end">
-                            <span>INDIA</span>
-                            <p><b>387</b><span> (119.2 Ov)</span></p>
-                            <p><b>170</b><span> (74.5 Ov)</span></p>
-                          </div>
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                        </div>
-                      </div>
-                      <div className="date-timing result text-center">
-                        England Won by 22  Runs
-                      </div>
-                    </div>
-                    <div className="card-bottom h-25 px-3 d-flex flex-column justify-content-center">
-                      <div className="ground-time d-flex justify-content-between">
-                        <p>Lord's Cricket Ground, London</p>
-                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
-                      </div>
-                      <span>10 Jul - 14 Jul 2025 | 15:30 IST</span>
                     </div>
                   </div>
                 </div>

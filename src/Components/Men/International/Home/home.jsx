@@ -35,6 +35,46 @@ function Home() {
                         <div className="carousel-inner homecarousel-inner">
                             <div className="carousel-item active">
                                 <div className="img-wrapper">
+                                    <img src="https://brightcove.iplt20.com/output/input/6375908073112-1753096653.jpg" alt="Captains Unite(d) ft. Shubman Gill and Bruno Fernandes" />
+                                </div>
+                                <div className="carousel-caption d-md-block">
+                                    <button>Video</button>
+                                    <h3>Captains Unite(d) ft. Shubman Gill and Bruno Fernandes</h3>
+                                    <div className="d-flex align-items-center gap-4 pb-1">
+                                        <p>21th Jul, 2025</p>
+                                        <div className="d-flex align-items-center gap-2">
+                                            <FontAwesomeIcon icon={faEye} />
+                                            <p className='p-0'>17.4k</p>
+                                        </div>
+                                        <IoShareSocialOutline className='share-icon' />
+                                    </div>
+                                </div>
+                                <div className="play">
+                                    <FaPlay />
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className="img-wrapper">
+                                    <img src="https://brightcove.iplt20.com/output/input/6375903032112-1753085115.jpg" alt="Manchester United x Team India" />
+                                </div>
+                                <div className="carousel-caption d-md-block">
+                                    <button>Video</button>
+                                    <h3>Manchester United x Team India</h3>
+                                    <div className="d-flex align-items-center gap-4 pb-1">
+                                        <p>21th Jul, 2025</p>
+                                        <div className="d-flex align-items-center gap-2">
+                                            <FontAwesomeIcon icon={faEye} />
+                                            <p className='p-0'>20.3 kk</p>
+                                        </div>
+                                        <IoShareSocialOutline className='share-icon' />
+                                    </div>
+                                </div>
+                                <div className="play">
+                                    <FaPlay />
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className="img-wrapper">
                                     <img src="https://brightcove.iplt20.com/output/input/6375778447112-1752806110.jpg" alt="The MVP ft. Ravindra Jadeja" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
@@ -44,7 +84,7 @@ function Home() {
                                         <p>18th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>32.8k</p>
+                                            <p className='p-0'>56.8k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -64,7 +104,7 @@ function Home() {
                                         <p>17th Jun, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>23.2k</p>
+                                            <p className='p-0'>43.2k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -84,7 +124,7 @@ function Home() {
                                         <p>15th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>28.8 k</p>
+                                            <p className='p-0'>55.8 k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -104,7 +144,7 @@ function Home() {
                                         <p>14th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>29.2 k</p>
+                                            <p className='p-0'>56.2 k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -113,47 +153,6 @@ function Home() {
                                     <FaPlay />
                                 </div>
                             </div>
-                            <div className="carousel-item">
-                                <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375598233112-1752375910.jpg" alt="Lord's Glory ft. KL Rahul" />
-                                </div>
-                                <div className="carousel-caption d-md-block">
-                                    <button>Video</button>
-                                    <h3>Lord's Glory ft. KL Rahul</h3>
-                                    <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>13th Jul, 2025</p>
-                                        <div className="d-flex align-items-center gap-2">
-                                            <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>34.4k</p>
-                                        </div>
-                                        <IoShareSocialOutline className='share-icon' />
-                                    </div>
-                                </div>
-                                <div className="play">
-                                    <FaPlay />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375570285112-1752289508.jpg" alt="Jasprit Bumrah, a buzz at the Lord's" />
-                                </div>
-                                <div className="carousel-caption d-md-block">
-                                    <button>Video</button>
-                                    <h3>Jasprit Bumrah, a buzz at the Lord's</h3>
-                                    <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>12th Jul, 2025</p>
-                                        <div className="d-flex align-items-center gap-2">
-                                            <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>39.3 kk</p>
-                                        </div>
-                                        <IoShareSocialOutline className='share-icon' />
-                                    </div>
-                                </div>
-                                <div className="play">
-                                    <FaPlay />
-                                </div>
-                            </div>
-
                         </div>
                         <button className="carousel-control-prev z-3" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
