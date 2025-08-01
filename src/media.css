@@ -1,4 +1,7 @@
 @media(max-width:1024px) {
+    .card-top br{
+        display: none;
+    }
     .first-navbar .left-nav a {
         margin-right: 0;
         align-self: center;

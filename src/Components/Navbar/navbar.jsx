@@ -223,7 +223,7 @@ function Navbar() {
                 {/* mobile menu cricket type*/}
                 <div className="mob-nav-cricket-type" style={{ marginTop: toggleSearch ? "44px" : "0px", backgroundColor: !isDomestic ? "#c65142" : "#2798e0" }}>
                     <div className="cric-types">
-                        <span className={`intern ${!isDomestic ? "active" : ""}`}>International</span>
+                        <span className={`intern ${!isDomestic ? "active" : ""}`} >International</span>
                         <div className="toggle">
                             <input type="checkbox" id="inter-domec-toggle" checked={isDomestic} onChange={handletoggle} />
                             <label htmlFor="inter-domec-toggle"></label>
