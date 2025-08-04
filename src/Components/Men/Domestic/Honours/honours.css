@@ -1,7 +1,3 @@
-.honourscarousel .honourcard-indicators {
-    width: 60% ;
-}
-
 .domestic-honourscarousel .domestic-card-inner::-webkit-scrollbar {
     display: block;
 }

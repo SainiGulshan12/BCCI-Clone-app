@@ -28,6 +28,36 @@ function News() {
                 <div className="side-news-content">
                     <div className="side-news">
                         <div className="side-cover-img">
+                            <img src="https://assets.bcci.tv/bcci/articles/1750334914_WhatsApp_Image_2025-06-19_at_16.54.14.jpeg" alt="New trophy to honour James Anderson and Sachin Tendulkar in England–India Test Series" />
+                        </div>
+                        <div className="news-text">
+                            <h6>19th June, 2025</h6>
+                            <h3>New trophy to honour James Anderson and Sachin Tendulkar in England–India Test...</h3>
+                        </div>
+                        <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
+                    </div>
+                    <div className="side-news">
+                        <div className="side-cover-img">
+                            <img src="https://assets.bcci.tv/bcci/articles/1750174146_4.jpg" alt="Squad Update: Harshit Rana links up with Team India for first Test in Leeds" />
+                        </div>
+                        <div className="news-text">
+                            <h6>17th June, 2025</h6>
+                            <h3>Squad Update: Harshit Rana links up with Team India for first Test in Leeds</h3>
+                        </div>
+                        <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
+                    </div>
+                    <div className="side-news">
+                        <div className="side-cover-img">
+                            <img src="https://assets.bcci.tv/bcci/articles/1747404106_BCCI_Thumbnail.png" alt="India U19 Squad for Tour of England: Injury and Replacement Updates" />
+                        </div>
+                        <div className="news-text">
+                            <h6>16th June, 2025 </h6>
+                            <h3>India U19 Squad for Tour of England: Injury and Replacement Updates </h3>
+                        </div>
+                        <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
+                    </div>
+                    <div className="side-news">
+                        <div className="side-cover-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1747404106_BCCI_Thumbnail.png" alt="India A’s squad for tour of England announced" />
                         </div>
                         <div className="news-text">
@@ -66,37 +96,6 @@ function News() {
                         </div>
                         <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
                     </div>
-                    <div className="side-news">
-                        <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1750334914_WhatsApp_Image_2025-06-19_at_16.54.14.jpeg" alt="New trophy to honour James Anderson and Sachin Tendulkar in England–India Test Series" />
-                        </div>
-                        <div className="news-text">
-                            <h6>19th June, 2025</h6>
-                            <h3>New trophy to honour James Anderson and Sachin Tendulkar in England–India Test...</h3>
-                        </div>
-                        <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
-                    </div>
-                    <div className="side-news">
-                        <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1750174146_4.jpg" alt="Squad Update: Harshit Rana links up with Team India for first Test in Leeds" />
-                        </div>
-                        <div className="news-text">
-                            <h6>17th June, 2025</h6>
-                            <h3>Squad Update: Harshit Rana links up with Team India for first Test in Leeds</h3>
-                        </div>
-                        <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
-                    </div>
-                    <div className="side-news">
-                        <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1747404106_BCCI_Thumbnail.png" alt="India U19 Squad for Tour of England: Injury and Replacement Updates" />
-                        </div>
-                        <div className="news-text">
-                            <h6>16th June, 2025 </h6>
-                            <h3>India U19 Squad for Tour of England: Injury and Replacement Updates </h3>
-                        </div>
-                        <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
-                    </div>
-
                 </div>
             </div>
         </section>
