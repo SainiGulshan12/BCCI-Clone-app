@@ -1,3 +1,7 @@
+.blue-ranks{
+    flex-shrink: 0;
+}
+
 .blue-ranks .team-ranking_odi,.team-ranking_t20 {
     position: relative;
     height: 150px;

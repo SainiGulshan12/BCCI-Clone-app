@@ -29,13 +29,13 @@ function Rank() {
         <section className='team-player-ranking-section' id="ranks">
             <Container fluid>
                 <Row>
-                    <Col sm={3} xs={12} className="d-flex align-items-center justify-content-md-center ">
+                    <Col sm={4} xs={12} className="d-flex align-items-center justify-content-md-center ">
                         <div className="rank-head">
                             <h1>The Game in Numbers</h1>
                             <p>A look at the Current cricket rankings</p>
                         </div>
                     </Col>
-                    <Col lg={9}>
+                    <Col lg={8}>
                         <div className="ranks d-flex position-relative">
                             <div className="blue-ranks">
                                 <p>Team Ranking</p>

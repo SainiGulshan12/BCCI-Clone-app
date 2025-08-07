@@ -15,14 +15,24 @@ function News() {
       </div>
       <div className="news-content d-flex">
         <div className="cover-img d-flex position-relative">
-          <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="Recheduling of India’s white-ball Tour of Bangladesh" />
+          <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="Board of Control for Cricket in India (BCCI) invites proposals for provision of verification services for player registration" />
           <div className="coverImg-caption position-absolute bottom-0">
             <button className='newsbtn'>News</button>
-            <h2>Board of Control for Cricket in India (BCCI) invites proposals for accreditation services</h2>
-            <p className="d-flex align-items-center justify-content-between">18th July, 2025 <span> <IoShareSocialOutline className='shareIcon' /> </span> </p>
+            <h2>Board of Control for Cricket in India (BCCI) invites proposals for provision of verification services for player registration</h2>
+            <p className="d-flex align-items-center justify-content-between">01th August, 2025 <span> <IoShareSocialOutline className='shareIcon' /> </span> </p>
           </div>
         </div>
         <div className="side-news-content">
+          <div className="side-news">
+            <div className="side-img">
+              <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="Board of Control for Cricket in India (BCCI) invites proposals for accreditation services" />
+            </div>
+            <div className="news-text">
+              <h6>18th July, 2025 </h6>
+              <h3>Board of Control for Cricket in India (BCCI) invites proposals for accreditation...</h3>
+              <p className="mb-0 text-end"><IoShareSocialOutline className="share-icon" /></p>
+            </div>
+          </div>
           <div className="side-news">
             <div className="side-img">
               <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="A special century: Anil Dandekar set to umpire 100th First Class match as BCCI Umpire" />
@@ -83,17 +93,6 @@ function News() {
               <p className="mb-0 text-end"><IoShareSocialOutline className="share-icon" /></p>
             </div>
           </div>
-          <div className="side-news">
-            <div className="side-img">
-              <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="Umpire Ulhas Gandhe's storied career hits 100th First-class match milestone " />
-            </div>
-            <div className="news-text">
-              <h6>17th January, 2025 </h6>
-              <h3>BCCI invites proposals for Stadium Signage Production and Management... </h3>
-              <p className="mb-0 text-end"><IoShareSocialOutline className="share-icon" /></p>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>

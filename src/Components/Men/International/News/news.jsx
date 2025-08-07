@@ -27,7 +27,7 @@ function News() {
                 </div>
                 <div className="side-news-content">
                     <div className="side-news">
-                        <div className="side-cover-img">
+                        <div className="side-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1753960347_AD6_4238_QAVIrFz4_copy.jpg" alt="Jasprit Bumrah released from squad for fifth Test against England" />
                         </div>
                         <div className="news-text">
@@ -37,7 +37,7 @@ function News() {
                         <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
                     </div>
                     <div className="side-news">
-                        <div className="side-cover-img">
+                        <div className="side-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1753888608_BCCI___Thumbnail.png" alt="India U19 squad for tour of Australia announced" />
                         </div>
                         <div className="news-text">
@@ -47,7 +47,7 @@ function News() {
                         <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
                     </div>
                     <div className="side-news">
-                        <div className="side-cover-img">
+                        <div className="side-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1753637546_Pant.jpg" alt="Rishabh Pant ruled out of fifth Test due to injury; N Jagadeesan named replacement" />
                         </div>
                         <div className="news-text">
@@ -57,7 +57,7 @@ function News() {
                         <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
                     </div>
                     <div className="side-news">
-                        <div className="side-cover-img">
+                        <div className="side-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1753066781_Website_Thumbnail.png" alt="Squad Update: Nitish Kumar Reddy ruled out of the series. Arshdeep Singh ruled out of fourth Test" />
                         </div>
                         <div className="news-text">
@@ -67,7 +67,7 @@ function News() {
                         <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
                     </div>
                     <div className="side-news">
-                        <div className="side-cover-img">
+                        <div className="side-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1747404106_BCCI_Thumbnail.png" alt="India A’s squad for tour of England announced" />
                         </div>
                         <div className="news-text">
@@ -77,7 +77,7 @@ function News() {
                         <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
                     </div>
                     <div className="side-news">
-                        <div className="side-cover-img">
+                        <div className="side-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="Rescheduling of India’s white-ball Tour of Bangladesh" />
                         </div>
                         <div className="news-text">
@@ -87,7 +87,7 @@ function News() {
                         <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
                     </div>
                     <div className="side-news">
-                        <div className="side-cover-img">
+                        <div className="side-img">
                             <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="BCCI invites proposals for provision of broadcast graphics services for BCCI’s domestic seasons" />
                         </div>
                         <div className="news-text">
