@@ -21,6 +21,22 @@ function Photo() {
 
     const gallery_img = [
         {
+            img1: "https://assets.bcci.tv/bcci/photos/1632/df487fe5-38ee-42ab-a209-18a18672bcd1.jpg",
+            desciption1: "India Tour of England 2025 - 5th Test",
+            btn1: "70",
+            img2: "https://assets.bcci.tv/bcci/photos/1631/70e5187d-1dcc-430e-8610-48ff3ca353f6.jpg",
+            desciption2: "India Tour of England 2025 - 4th Test",
+            btn2: "74",
+        },
+        {
+            img1: "https://assets.bcci.tv/bcci/photos/1640/209e4ac2-c816-43f1-a35b-5f52092db355.jpg",
+            desciption1: "India Women Tour of England 2025 - 3rd ODI",
+            btn1: "26",
+            img2: "https://assets.bcci.tv/bcci/photos/1639/021e1429-8681-49b6-93d1-50249da49bac.jpg",
+            desciption2: "India Women Tour of England 2025 - 2nd ODI",
+            btn2: "54",
+        },
+        {
             img1: "https://assets.bcci.tv/bcci/photos/1638/b8558b32-c3cc-4ca0-88c6-6636a02cd8c2.jpg",
             desciption1: "India Women Tour of England 2025 - 1st ODI",
             btn1: "52",
@@ -93,66 +109,34 @@ function Photo() {
             btn2: "131",
         },
         {
-            img1: "https://assets.bcci.tv/bcci/photos/1576/d8654521-fa75-42ee-868e-d6345b6f6ef3.jpg",
-            desciption1: "England Tour Of India T20 Series 2025 - 4th T20I",
-            btn1: "161",
-            img2: "https://assets.bcci.tv/bcci/photos/1575/deb33a13-7c1d-4d1b-b5a4-c28ade9129f9.jpg",
-            desciption2: "England Tour Of India T20 Series 2025 - 3rd T20I",
-            btn2: "152",
-        },
-        {
-            img1: "https://assets.bcci.tv/bcci/photos/1574/0f8a6352-2a0c-4b66-a56c-9c90bcfa8eef.jpg",
-            desciption1: "England Tour Of India T20 Series 2025 - 2nd T20I",
-            btn1: "172",
-            img2: "https://assets.bcci.tv/bcci/photos/1573/4056437d-b24d-4f37-8b69-1c1b1d238ca3.jpg",
-            desciption2: "England Tour Of India T20 Series 2025 - 1st T20I",
-            btn2: "129"
-        },
-        {
-            img1: "https://assets.bcci.tv/bcci/photos/1738/daa2c6c7-097f-4b0c-bc02-1b06d244c0b6.jpg",
-            desciption1: "Ireland Womens Tour Of India 2025 - 3rd ODI",
-            btn1: "218",
-            img2: "https://assets.bcci.tv/bcci/photos/1737/436feb26-abf8-4089-bbb9-5b5bc346e35d.jpg",
-            desciption2: "Ireland Womens Tour Of India 2025 - 2nd ODI",
-            btn2: "259"
-        },
-        {
-            img1: "https://assets.bcci.tv/bcci/photos/1736/3c7037ae-5ffb-403e-ba4d-d840eb82e793.jpg",
-            desciption1: "Ireland Womens Tour Of India 2025 - 1st ODI",
-            btn1: "239",
-            img2: "https://documents.bcci.tv/resizedimageskirti/9d798571-0051-4085-b9bf-f3e38134cbc0_compressed.jpg",
-            desciption2: "Ind Vs SL Series 2022 - 2nd Test",
-            btn2: "409"
-        },
-        {
-            img1: "https://documents.bcci.tv/resizedimageskirti/c98a8045-7b80-49e8-8c06-16f67f7fdd28_compressed.jpg",
+            img1: "https://documents.bcci.tv/resizedimageskirti/9cccd84f-c3c0-4b0e-91fb-359c05acc12d_compressed.jpg",
             desciption1: "Ind Vs SL Series 2022 - 3rd T20I",
             btn1: "121",
-            img2: "https://documents.bcci.tv/resizedimageskirti/fbe9a21b-deb4-4b6d-93e4-b938e540de1c_compressed.jpg",
+            img2: "https://documents.bcci.tv/resizedimageskirti/dc8c0b72-9557-46fc-ac46-90756ae60af4_compressed.jpg",
             desciption2: "Ind Vs SL Series 2022 - 2nd T20I",
             btn2: "140"
         },
         {
-            img1: "https://documents.bcci.tv/resizedimageskirti/a8e1318b-46b9-4570-bc1a-f87532fe772d_compressed.jpg",
+            img1: "https://documents.bcci.tv/resizedimageskirti/bf2c3a0c-d0f2-43f3-ac34-5b908231e631_compressed.jpg",
             desciption1: "India v West Indies 2022 - 3rd T20I",
             btn1: "86",
-            img2: "https://documents.bcci.tv/resizedimageskirti/1645191719__B8A0475%2520copy_compressed.jpg",
+            img2: "https://documents.bcci.tv/resizedimageskirti/f6935639-0a5c-4b4a-ae59-9b538785fd1e_compressed.jpg",
             desciption2: "India v West Indies 2022 - 2nd T20I",
             btn2: "94"
         },
         {
-            img1: "https://documents.bcci.tv/resizedimageskirti/d29fec09-8622-4005-8441-7edcd3f8793e_compressed.jpg",
+            img1: "https://documents.bcci.tv/resizedimageskirti/ed2bf872-b2b2-46dd-8a0e-1d8e9a23091d_compressed.jpg",
             desciption1: "India v West Indies 2022 - 1st T20I",
             btn1: "151",
-            img2: "https://documents.bcci.tv/resizedimageskirti/1644603121__AN_8047%2520copy_compressed.jpg",
+            img2: "https://documents.bcci.tv/resizedimageskirti/bf0a73f1-ba7e-46da-b6a3-1d8e2769a80e_compressed.jpg",
             desciption2: "India v West Indies 2022 - 3rd ODI",
             btn2: "100",
         },
         {
-            img1: "https://documents.bcci.tv/resizedimageskirti/1644393145_cropped_compressed.jpg",
+            img1: "https://documents.bcci.tv/resizedimageskirti/1644392694_cropped_compressed.jpg",
             desciption1: "India v West Indies 2022 - 2nd ODI",
             btn1: "69",
-            img2: "https://documents.bcci.tv/resizedimageskirti/1644165035_cropped_compressed.jpg",
+            img2: "https://documents.bcci.tv/resizedimageskirti/1644151086_cropped_compressed.jpg",
             desciption2: "India v West Indies 2022 - 1st ODI",
             btn2: "66",
         }

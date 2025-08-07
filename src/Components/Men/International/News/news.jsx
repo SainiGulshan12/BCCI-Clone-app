@@ -18,41 +18,51 @@ function News() {
             </div>
             <div className="news-content d-flex">
                 <div className="cover-img d-flex position-relative">
-                    <img src="https://assets.bcci.tv/bcci/articles/1753066781_Website_Thumbnail.png" alt="Rescheduling of India’s white-ball Tour of Bangladesh" />
+                    <img src="https://assets.bcci.tv/bcci/articles/1754046995_BCCI_Thumbnail.png" alt="Board of Control for Cricket in India (BCCI) invites proposals for provision of verification services for player registration" />
                     <div className="coverImg-caption position-absolute bottom-0">
                         <button className='newsbtn'>News</button>
-                        <h2>Squad Update: Nitish Kumar Reddy ruled out of the series. Arshdeep Singh ruled out of fourth Test</h2>
-                        <p className="d-flex align-items-center justify-content-between">21st July, 2025 <span> <IoShareSocialOutline className='shareIcon' /> </span> </p>
+                        <h2>Board of Control for Cricket in India (BCCI) invites proposals for provision of verification services for player registration</h2>
+                        <p className="d-flex align-items-center justify-content-between">01st Aug, 2025 <span> <IoShareSocialOutline className='shareIcon' /> </span> </p>
                     </div>
                 </div>
                 <div className="side-news-content">
                     <div className="side-news">
                         <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1750334914_WhatsApp_Image_2025-06-19_at_16.54.14.jpeg" alt="New trophy to honour James Anderson and Sachin Tendulkar in England–India Test Series" />
+                            <img src="https://assets.bcci.tv/bcci/articles/1753960347_AD6_4238_QAVIrFz4_copy.jpg" alt="Jasprit Bumrah released from squad for fifth Test against England" />
                         </div>
                         <div className="news-text">
-                            <h6>19th June, 2025</h6>
-                            <h3>New trophy to honour James Anderson and Sachin Tendulkar in England–India Test...</h3>
-                        </div>
-                        <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
-                    </div>
-                    <div className="side-news">
-                        <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1750174146_4.jpg" alt="Squad Update: Harshit Rana links up with Team India for first Test in Leeds" />
-                        </div>
-                        <div className="news-text">
-                            <h6>17th June, 2025</h6>
-                            <h3>Squad Update: Harshit Rana links up with Team India for first Test in Leeds</h3>
+                            <h6>31st July, 2025 </h6>
+                            <h3>Jasprit Bumrah released from squad for fifth Test against England</h3>
                         </div>
                         <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
                     </div>
                     <div className="side-news">
                         <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1747404106_BCCI_Thumbnail.png" alt="India U19 Squad for Tour of England: Injury and Replacement Updates" />
+                            <img src="https://assets.bcci.tv/bcci/articles/1753888608_BCCI___Thumbnail.png" alt="India U19 squad for tour of Australia announced" />
                         </div>
                         <div className="news-text">
-                            <h6>16th June, 2025 </h6>
-                            <h3>India U19 Squad for Tour of England: Injury and Replacement Updates </h3>
+                            <h6>30th July, 2025</h6>
+                            <h3>India U19 squad for tour of Australia announced</h3>
+                        </div>
+                        <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
+                    </div>
+                    <div className="side-news">
+                        <div className="side-cover-img">
+                            <img src="https://assets.bcci.tv/bcci/articles/1753637546_Pant.jpg" alt="Rishabh Pant ruled out of fifth Test due to injury; N Jagadeesan named replacement" />
+                        </div>
+                        <div className="news-text">
+                            <h6>27th July, 2025</h6>
+                            <h3>Rishabh Pant ruled out of fifth Test due to injury; N Jagadeesan named replacement</h3>
+                        </div>
+                        <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
+                    </div>
+                    <div className="side-news">
+                        <div className="side-cover-img">
+                            <img src="https://assets.bcci.tv/bcci/articles/1753066781_Website_Thumbnail.png" alt="Squad Update: Nitish Kumar Reddy ruled out of the series. Arshdeep Singh ruled out of fourth Test" />
+                        </div>
+                        <div className="news-text">
+                            <h6>21st July, 2025</h6>
+                            <h3>Squad Update: Nitish Kumar Reddy ruled out of the series. Arshdeep Singh ruled...</h3>
                         </div>
                         <p className="share-div mb-0"><IoShareSocialOutline className="share-icon" /></p>
                     </div>
@@ -83,16 +93,6 @@ function News() {
                         <div className="news-text">
                             <h6>03rd July, 2025</h6>
                             <h3>BCCI invites proposals for provision of broadcast graphics services for BCCI’s...</h3>
-                        </div>
-                        <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
-                    </div>
-                    <div className="side-news">
-                        <div className="side-cover-img">
-                            <img src="https://assets.bcci.tv/bcci/articles/1750749867_black-and-white.png " alt="BCCI mourns the passing of Dilip Doshi" />
-                        </div>
-                        <div className="news-text">
-                            <h6>24th June, 2025</h6>
-                            <h3>BCCI mourns the passing of Dilip Doshi</h3>
                         </div>
                         <p className="share-div mb-0 "><IoShareSocialOutline className="share-icon" /></p>
                     </div>
