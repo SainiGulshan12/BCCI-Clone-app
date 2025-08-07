@@ -63,50 +63,12 @@ function Match() {
               <div className="card">
                 <div className="card-body p-0 d-flex">
                   <div className="text-strip t20i">
-                    1st Twenty20
-                  </div>
-                  <div className="card-details">
-                    <div className="card-top d-flex align-items-center justify-content-between h-25">
-                      <h4>India A Women Tour Of Australia T20 Series 2025</h4>
-                      <p>4 days to go</p>
-                    </div>
-                    <div className="card-center h-50 d-flex flex-column">
-                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/CqCDnjhh7Y1729662126Australia.png" alt="australia" />
-                          <b>AUSTRALIA A<br /> (WOMEN)</b>
-                        </div>
-                        <div className="vs">
-                          <img src={vs} alt="vs" />
-                        </div>
-                        <div className="flag d-flex justify-content-end align-items-center w-50 pe-1">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA A (WOMEN)</b>
-                        </div>
-                      </div>
-                      <div className="date-timing text-center">
-                        Thu,7 Aug 2025 | 13:30 IST
-                      </div>
-                    </div>
-                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
-                      <p>Great Barrier Reef Arena, Mackay</p>
-                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col px-0">
-              <div className="card">
-                <div className="card-body p-0 d-flex">
-                  <div className="text-strip t20i">
                     2nd Twenty20
                   </div>
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
                       <h4>India A Women Tour Of Australia T20 Series 2025</h4>
-                      <p>1 Week to go</p>
+                      <p>1 day to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -144,7 +106,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
                       <h4>India A Women Tour Of Australia T20 Series 2025</h4>
-                      <p>1 week to go</p>
+                      <p>1 day to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -182,7 +144,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25 text-uppercase">
                       <h4>India A Women Tour Of Australia One Day <br /> Series 2025</h4>
-                      <p>2 weeks to go</p>
+                      <p>5 days to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -220,7 +182,7 @@ function Match() {
                   <div className="card-details">
                     <div className="card-top d-flex align-items-center justify-content-between h-25">
                       <h4>India A Women Tour Of Australia One Day <br /> Series 2025</h4>
-                      <p>2 weeks to go</p>
+                      <p>1 week to go</p>
                     </div>
                     <div className="card-center h-50 d-flex flex-column">
                       <div className="teams d-flex align-items-center justify-content-between px-2 ">
@@ -249,11 +211,97 @@ function Match() {
               </div>
             </div>
 
+             <div className="col px-0">
+              <div className="card">
+                <div className="card-body p-0 d-flex">
+                  <div className="text-strip odi">
+                    3rd One-Day
+                  </div>
+                  <div className="card-details">
+                    <div className="card-top d-flex align-items-center justify-content-between h-25">
+                      <h4>India A Women Tour Of Australia One Day <br /> Series 2025</h4>
+                      <p>2 weeks to go</p>
+                    </div>
+                    <div className="card-center h-50 d-flex flex-column">
+                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
+                        <div className="flag d-flex align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/CqCDnjhh7Y1729662126Australia.png" alt="austalia" />
+                          <b>AUSTRALIA A <br />(WOMEN)</b>
+                        </div>
+                        <div className="vs">
+                          <img src={vs} alt="vs" />
+                        </div>
+                        <div className="flag d-flex justify-content-end align-items-center w-50 pe-1">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
+                          <b>INDIA A (WOMEN)</b>
+                        </div>
+                      </div>
+                      <div className="date-timing text-center">
+                        Fri, 17 Aug 2025 | 05:00 IST
+                      </div>
+                    </div>
+                    <div className="card-bottom h-25 d-flex align-items-center justify-content-between px-3">
+                      <p>Ian Healy Oval, Brisbane</p>
+                      <b>Match Info <TiArrowRight className='ti-arrow-icon' /></b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
         <div className="tab-pane fade" id="pills-results" role="tabpanel" aria-labelledby="pills-results-tab" tabIndex={0}>
           <div className="my-fixtures row flex-nowrap" ref={resultsRef}>
+
+            <div className="col px-0">
+              <div className="card">
+                <div className="card-body p-0 d-flex">
+                  <div className="text-strip women">
+                    5th Test
+                  </div>
+                  <div className="card-details">
+                    <div className="card-top align-content-center h-25">
+                      <h4>India Tour of England Test Series 2025</h4>
+                    </div>
+                    <div className="card-center h-50 d-flex flex-column">
+                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
+                        <div className="flag d-flex align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/6AaRpNleNd1747648886eng.png" alt="england" />
+                          <div className="score">
+                            <span>England</span>
+                            <p><b>247</b><span> (51.2 Ov)</span></p>
+                            <p><b>367</b><span> (85.1 Ov)</span></p>
+                          </div>
+                        </div>
+                        <div className="vs">
+                          <img src={vs} alt="vs" />
+                        </div>
+                        <div className="flag d-flex justify-content-end align-items-center w-50">
+                          <div className="score text-end">
+                            <span>India</span>
+                            <p><b>224</b><span> (69.4 Ov)</span></p>
+                            <p><b>396</b><span> (88.0 Ov)</span></p>
+                          </div>
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
+                        </div>
+                      </div>
+                      <div className="date-timing result text-center">
+                        India Won by 6 runs
+                      </div>
+                    </div>
+                    <div className="card-bottom h-25 px-3">
+                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
+                        <p>Kennington Oval, London</p>
+                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
+                      </div>
+                      <span>31 Jul  - 4 Aug 2025 | 15:30 IST</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div className="col px-0">
               <div className="card">
@@ -396,7 +444,6 @@ function Match() {
               </div>
             </div>
 
-
             <div className="col px-0">
               <div className="card">
                 <div className="card-body p-0 d-flex">
@@ -437,52 +484,6 @@ function Match() {
                         <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
                       </div>
                       <span>Sat,19 Jul 2025 | 15:30 IST</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col px-0">
-              <div className="card">
-                <div className="card-body p-0 d-flex">
-                  <div className="text-strip odi">
-                    1st ODI
-                  </div>
-                  <div className="card-details">
-                    <div className="card-top text-uppercase align-content-center h-25">
-                      <h4>India Women In England Odi Series 2025</h4>
-                    </div>
-                    <div className="card-center h-50 d-flex flex-column">
-                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex justify-content-start align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/xwbqvMolZz1729662687ECB.png" alt="England u19" />
-                          <div className="score ">
-                            <span>England (Women)</span>
-                            <p><b>258 - 6</b><span> (50.0 Ov)</span></p>
-                          </div>
-                        </div>
-                        <div className="vs">
-                          <img src={vs} alt="vs" />
-                        </div>
-                        <div className="flag d-flex align-items-center justify-content-end w-50">
-                          <div className="score text-end">
-                            <span>India (Women)</span>
-                            <p><b>262 - 6</b><span> (48.2 Ov)</span></p>
-                          </div>
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp " alt="India u19" />
-                        </div>
-                      </div>
-                      <div className="date-timing result text-center">
-                        India (Women) Won by 4  Wickets
-                      </div>
-                    </div>
-                    <div className="card-bottom h-25 px-3">
-                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
-                        <p>The Rose Bowl, Southamptonr</p>
-                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
-                      </div>
-                      <span>Wed,16 Jul 2025 | 17:30 IST</span>
                     </div>
                   </div>
                 </div>

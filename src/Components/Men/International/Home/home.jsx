@@ -35,16 +35,16 @@ function Home() {
                         <div className="carousel-inner homecarousel-inner">
                             <div className="carousel-item active">
                                 <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375908073112-1753096653.jpg" alt="Captains Unite(d) ft. Shubman Gill and Bruno Fernandes" />
+                                    <img src="https://brightcove.iplt20.com/output/input/6376602495112-1754450224.jpg" alt="A series to remember: Recap of India's Test Tour of England 2025" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
                                     <button>Video</button>
-                                    <h3>Captains Unite(d) ft. Shubman Gill and Bruno Fernandes</h3>
+                                    <h3>A series to remember: Recap of India's Test Tour of England 2025</h3>
                                     <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>21th Jul, 2025</p>
+                                        <p>6th Aug, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>17.4k</p>
+                                            <p className='p-0'>30.4k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -55,16 +55,16 @@ function Home() {
                             </div>
                             <div className="carousel-item">
                                 <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375903032112-1753085115.jpg" alt="Manchester United x Team India" />
+                                    <img src="https://brightcove.iplt20.com/output/input/6376561385112-1754364310.jpg" alt="Epic win and Epic reactions from the series finale at the Oval" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
                                     <button>Video</button>
-                                    <h3>Manchester United x Team India</h3>
+                                    <h3>Epic win and Epic reactions from the series finale at the Oval</h3>
                                     <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>21th Jul, 2025</p>
+                                        <p>5th Aug, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>20.3 kk</p>
+                                            <p className='p-0'>70.3 kk</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -75,16 +75,16 @@ function Home() {
                             </div>
                             <div className="carousel-item">
                                 <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375778447112-1752806110.jpg" alt="The MVP ft. Ravindra Jadeja" />
+                                    <img src="https://brightcove.iplt20.com/output/input/6376559430112-1754363110.jpg" alt="Mohammed Siraj - You are a Hero!" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
                                     <button>Video</button>
-                                    <h3>The MVP ft. Ravindra Jadeja</h3>
+                                    <h3>Mohammed Siraj - You are a Hero!</h3>
                                     <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>18th Jul, 2025</p>
+                                        <p>5th Aug, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>56.8k</p>
+                                            <p className='p-0'>82.8k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -95,16 +95,16 @@ function Home() {
                             </div>
                             <div className="carousel-item">
                                 <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375735272112-1752734112.jpg" alt="India U19's Day out at Lord's" />
+                                    <img src="https://brightcove.iplt20.com/output/input/6376500349112-1754188014.jpg" alt="When Team India were in awe of Akash Deep the batter" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
                                     <button>Video</button>
-                                    <h3>India U19's Day out at Lord's</h3>
+                                    <h3>When Team India were in awe of Akash Deep the batter</h3>
                                     <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>17th Jun, 2025</p>
+                                        <p>3rd Aug, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>43.2k</p>
+                                            <p className='p-0'>80.2k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -115,16 +115,16 @@ function Home() {
                             </div>
                             <div className="carousel-item">
                                 <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375684176112-1752605647.jpg" alt="Team India meets His Majesty" />
+                                    <img src="https://brightcove.iplt20.com/output/input/6376476175112-1754105711.jpg" alt="Prasidh Krishna & Mohd. Siraj sum up India's spirited comeback at the Oval" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
                                     <button>Video</button>
-                                    <h3>Team India meets His Majesty</h3>
+                                    <h3>Prasidh Krishna & Mohd. Siraj sum up India's spirited comeback at the Oval</h3>
                                     <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>15th Jul, 2025</p>
+                                        <p>2nd Aug, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>55.8 k</p>
+                                            <p className='p-0'>72.8 k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -135,16 +135,16 @@ function Home() {
                             </div>
                             <div className="carousel-item">
                                 <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375623384112-1752462312.jpg" alt="BoWled (th)'em ft. Washington Sundar" />
+                                    <img src="https://brightcove.iplt20.com/output/input/6376354979112-1753931108.jpg" alt="Team First ft. Dhruv Jurel" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
                                     <button>Video</button>
-                                    <h3>BoWled (th)'em ft. Washington Sundar</h3>
+                                    <h3>Team First ft. Dhruv Jurel</h3>
                                     <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>14th Jul, 2025</p>
+                                        <p>31st Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>56.2 k</p>
+                                            <p className='p-0'>73.2 k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
