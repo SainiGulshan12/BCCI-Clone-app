@@ -9,60 +9,60 @@ function Video() {
 
     const latestVideos = [
         {
-            img: "https://brightcove.iplt20.com/output/input/6375975278112-1753201454.jpg",
-            date: "22nd Jul, 2025",
-            title: "Anshul is very close to making his debut – Shubman Gill",
-            views: "21.5 k",
-            duration: "06:41 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376602495112-1754450224.jpg",
+            date: "6th Aug, 2025",
+            title: "A series to remember: Recap of India's Test Tour of England...",
+            views: "30.5 k",
+            duration: "02:07 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375923349112-1753116913.jpg",
-            date: "21st Jul, 2025",
-            title: "Jasprit Bumrah will play the Manchester Test: Mohd. Siraj",
-            views: "23.1k",
-            duration: "08:07 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376568349112-1754377518.jpg",
+            date: "5th Aug, 2025",
+            title: "Our performance today showed why we are a gun team:...",
+            views: "39.6k",
+            duration: "18:17 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375908073112-1753096653.jpg",
-            date: "21st Jul, 2025",
-            title: "Captains Unite(d) ft. Shubman Gill and Bruno Fernandes",
-            views: "28.5k",
-            duration: "01:53 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376566694112-1754376908.jpg",
+            date: "5th Aug, 2025",
+            title: "Raw Emotions after India's special win at the Oval",
+            views: "51.7k",
+            duration: "01:50 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375903032112-1753085115.jpg",
-            date: "21st Jun, 2025",
-            title: "Manchester United x Team India",
-            views: "35.8k",
-            duration: "02:30 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376560023112-1754389230.jpg",
+            date: "5th Aug, 2025",
+            title: "Dressing Room BTS | Impact Player of the Series | England...",
+            views: "95.2 k",
+            duration: "01:37 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375778447112-1752806110.jpg",
-            date: "18th Jul, 2025",
-            title: "The MVP ft. Ravindra Jadeja",
-            views: "33.2 k",
-            duration: "02:29 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376561385112-1754364310.jpg",
+            date: "5th Aug, 2025",
+            title: "Epic win and Epic reactions from the series finale at the...",
+            views: "69.8k",
+            duration: "02:50 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375762393112-1752771029.jpg",
-            date: "17th Jul, 2025",
-            title: "Managing the team environment is very important: Ryan ten...",
-            views: "5.5k",
-            duration: "06:20 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376559430112-1754363110.jpg",
+            date: "5th Aug, 2025",
+            title: "Mohammed Siraj - You are a Hero!",
+            views: "81.5k",
+            duration: "02:25 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375735272112-1752734112.jpg",
-            date: "17th Jul, 2025",
-            title: "India U19's Day out at Lord's",
-            views: "23.2k",
-            duration: "02:31 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376528070112-1754289311.jpg",
+            date: "4th Aug, 2025",
+            title: "Mohd. Siraj is a natural leader: Morne Morkel",
+            views: "41.8k",
+            duration: "05:43 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375684176112-1752605647.jpg",
-            date: "15th Jul, 2025",
-            title: "Team India meets His Majesty",
-            views: "29.5 k ",
-            duration: "01:23 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376504740112-1754199311.jpg",
+            date: "3rd Aug, 2025",
+            title: "Was enjoying batting on a spicy wicket: Yashasvi Jaiswal",
+            views: "33.6 k ",
+            duration: "06:25 mins"
         }
     ];
 
@@ -127,147 +127,119 @@ function Video() {
 
     const features = [
         {
-            img: "https://brightcove.iplt20.com/output/input/6375908073112-1753096653.jpg",
-            date: "21st Jul, 2025",
-            title: "Captains Unite(d) ft. Shubman Gill and Bruno Fernandes",
-            views: "28.5k",
-            duration: "01:53 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376602495112-1754450224.jpg",
+            date: "6th Aug, 2025",
+            title: "A series to remember: Recap of India's Test Tour of England...",
+            views: "30.5 k",
+            duration: "02:07 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375903032112-1753085115.jpg",
-            date: "21st Jun, 2025",
-            title: "Manchester United x Team India",
-            views: "35.8k",
-            duration: "02:30 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376566694112-1754376908.jpg",
+            date: "5th Aug, 2025",
+            title: "Raw Emotions after India's special win at the Oval",
+            views: "51.7k",
+            duration: "01:50 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375778447112-1752806110.jpg",
-            date: "18th Jul, 2025",
-            title: "The MVP ft. Ravindra Jadeja",
-            views: "56.2 k",
-            duration: "02:29 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376560023112-1754389230.jpg",
+            date: "5th Aug, 2025",
+            title: "Dressing Room BTS | Impact Player of the Series | England...",
+            views: "95.2 k",
+            duration: "01:37 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375735272112-1752734112.jpg",
-            date: "17th Jul, 2025",
-            title: "India U19's Day out at Lord's",
-            views: "46.2k",
-            duration: "02:31 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376561385112-1754364310.jpg",
+            date: "5th Aug, 2025",
+            title: "Epic win and Epic reactions from the series finale at the...",
+            views: "69.8k",
+            duration: "02:50 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375684176112-1752605647.jpg",
-            date: "15th Jul, 2025",
-            title: "Team India meets His Majesty",
-            views: "51.5 k ",
-            duration: "01:23 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376559430112-1754363110.jpg",
+            date: "5th Aug, 2025",
+            title: "Mohammed Siraj - You are a Hero!",
+            views: "81.5k",
+            duration: "02:25 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375623384112-1752462312.jpg",
-            date: "14th Jul, 2025",
-            title: "BoWled (th)'em ft. Washington Sundar",
-            views: "51.5k",
-            duration: "01:47 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376500349112-1754188014.jpg",
+            date: "3rd Aug, 2025",
+            title: "When Team India were in awe of Akash Deep the batter",
+            views: "79.7k",
+            duration: "02:47 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375598233112-1752375910.jpg",
-            date: "13th Jul, 2025",
-            title: "Lord's Glory ft. KL Rahul",
-            views: "48.8k",
-            duration: "01:24 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376476175112-1754105711.jpg",
+            date: "2nd Aug, 2025",
+            title: "Prasidh Krishna & Mohd. Siraj sum up India's spirited...",
+            views: "73.8k",
+            duration: "02:11 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375570285112-1752289508.jpg",
-            date: "12th Jul, 2025",
-            title: "Jasprit Bumrah, a buzz at the Lord's",
-            views: "52.7k",
-            duration: "02:03 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376354979112-1753931108.jpg",
+            date: "31st Jul, 2025",
+            title: "Team First ft. Dhruv Jurel",
+            views: "73.2 k",
+            duration: "02:43 mins"
         }
     ];
 
     const pressConfrence = [
         {
-            img: "https://brightcove.iplt20.com/output/input/6375975278112-1753201454.jpg",
-            date: "22nd Jul, 2025",
-            title: "Anshul is very close to making his debut – Shubman Gill",
-            views: "21.5 k",
-            duration: "06:41 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376568349112-1754377518.jpg",
+            date: "5th Aug, 2025",
+            title: "Our performance today showed why we are a gun team:...",
+            views: "39.6k",
+            duration: "18:17 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375923349112-1753116913.jpg",
-            date: "21st Jul, 2025",
-            title: "Jasprit Bumrah will play the Manchester Test: Mohd. Siraj",
-            views: "23.1k",
-            duration: "08:07 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376528070112-1754289311.jpg",
+            date: "4th Aug, 2025",
+            title: "Mohd. Siraj is a natural leader: Morne Morkel",
+            views: "41.8k",
+            duration: "05:43 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375762393112-1752771029.jpg",
-            date: "17th Jul, 2025",
-            title: "Managing the team environment is very important: Ryan ten...",
-            views: "5.5k",
-            duration: "06:20 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376504740112-1754199311.jpg",
+            date: "3rd Aug, 2025",
+            title: "Was enjoying batting on a spicy wicket: Yashasvi Jaiswal",
+            views: "33.6 k ",
+            duration: "06:25 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375666451112-1752565829.jpg",
-            date: "15th Jul, 2025",
-            title: "I am proud of the effort we put in the Test: Shubman Gill",
-            views: "7.9k",
-            duration: "09:02 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376477417112-1754112311.jpg",
+            date: "2nd Aug, 2025",
+            title: "It's not about the performance but the process for me: Prasid...",
+            views: "26.6k",
+            duration: "4:10 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375627292112-1752479238.jpg",
-            date: "14th Jul, 2025",
-            title: "I had solid plans coming into this Test match: Washington...",
-            views: "9.3k",
-            duration: "05:53 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376424907112-1754029524.jpg",
+            date: "1st Aug, 2025",
+            title: "Karun Nair is a quality player who can absorb pressure: Rya...",
+            views: "20.6 k",
+            duration: "06:15 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375606428112-1752400469.jpg",
-            date: "13th Jul, 2025",
-            title: "My mindset, hunger, and passion has always been ther...",
-            views: "8.2k",
-            duration: "09:51 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376332174112-1753884312.jpg",
+            date: "30th Jul, 2025",
+            title: "Levelling the series would be a great achievement: Shubman",
+            views: "19.4k",
+            duration: "07:47 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375576677112-1752310034.jpg",
-            date: "12th Jul, 2025",
-            title: "The memories you make on field are more important: Jasprit...",
-            views: "8.3k",
-            duration: "06:26 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376294169112-1753806912.jpg",
+            date: "29th Jul, 2025",
+            title: "It's been an absolutely brilliant Test series so far: Sitanshu...",
+            views: "15.5k",
+            duration: "14:35 mins"
         },
         {
-            img: "https://brightcove.iplt20.com/output/input/6375525234112-1752218710.jpg",
-            date: "11th Jul, 2025",
-            title: "Happy with the way I bowled today: Nitish Kumar Reddy",
-            views: "8.8k",
-            duration: "005:03 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375450611112-1752074673.jpg",
-            date: "9th Jul, 2025",
-            title: "I like to bat with a very clear mindset: Rishabh Pant",
-            views: "9.6k",
-            duration: "05:28 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375379063112-1751992510.jpg",
-            date: "8th Jul, 2025",
-            title: "Rishabh Pant approaches his batting with lots of planning;...",
-            views: "10.8k",
-            duration: "08:55 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375310229112-1751872640.jpg",
-            date: "7th Jul, 2025",
-            title: "It will be a series to remember if we keep grinding like this:...",
-            views: "11.6k",
-            duration: "10:46 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375288509112-1751782830.jpg",
-            date: "6th Jul, 2025",
-            title: "Akash produced a dream delivery to dismiss Root: Mor...",
-            views: "17.4 k",
-            duration: "06:36 mins"
+            img: "https://brightcove.iplt20.com/output/input/6376226677112-1753686630.jpg",
+            date: "28th Jul, 2025",
+            title: "We’ve characters in dressing room wanting to fight for...",
+            views: "25.9k",
+            duration: "07:13 mins"
         }
     ];
 
