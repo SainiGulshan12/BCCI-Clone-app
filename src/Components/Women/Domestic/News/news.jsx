@@ -24,7 +24,7 @@ function News() {
         </div>
         <div className="side-news-content">
           <div className="side-news">
-            <div className="side-cover-img">
+            <div className="side-img">
               <img src="https://assets.bcci.tv/bcci/articles/1751634757_BCCI___Thumbnail.png" alt="A special century: Anil Dandekar set to umpire 100th First Class match as BCCI Umpire" />
             </div>
             <div className="news-text">
@@ -34,7 +34,7 @@ function News() {
             </div>
           </div>
           <div className="side-news">
-            <div className="side-cover-img">
+            <div className="side-img">
               <img src="https://assets.bcci.tv/bcci/articles/1737120007_BCCI%20_%20Thumbnail.png" alt="BCCI invites proposals for Stadium Signage Production and Management Services for International Events, Domestic Events, IPL and WPL" />
             </div>
             <div className="news-text">
@@ -44,7 +44,7 @@ function News() {
             </div>
           </div>
           <div className="side-news">
-            <div className="side-cover-img">
+            <div className="side-img">
               <img src="https://assets.bcci.tv/bcci/articles/1749449963__AI_5796.JPG" alt="TATA IPL 2025 suspended for one week" />
             </div>
             <div className="news-text">
@@ -54,7 +54,7 @@ function News() {
             </div>
           </div>
           <div className="side-news">
-            <div className="side-cover-img">
+            <div className="side-img">
               <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="Board of Control for Cricket in India (BCCI) invites proposals for provision of videography and editing services" />
             </div>
             <div className="news-text">
@@ -64,7 +64,7 @@ function News() {
             </div>
           </div>
           <div className="side-news">
-            <div className="side-cover-img">
+            <div className="side-img">
               <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="BCCI announces fixtures for Australia Women's, Australia Men's A and South Africa Men's A team tours of India" />
             </div>
             <div className="news-text">
@@ -74,7 +74,7 @@ function News() {
             </div>
           </div>
           <div className="side-news">
-            <div className="side-cover-img">
+            <div className="side-img">
               <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="Junior Cricket Committee picks Rest of India squad" />
             </div>
             <div className="news-text">
@@ -84,7 +84,7 @@ function News() {
             </div>
           </div>
           <div className="side-news">
-            <div className="side-cover-img">
+            <div className="side-img">
               <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="Umpire Ulhas Gandhe's storied career hits 100th First-class match milestone " />
             </div>
             <div className="news-text">
@@ -149,7 +149,7 @@ export default News;
 //         </div>
 //         <div className="side-news-content">
 //           <div className="side-news">
-//             <div className="side-cover-img">
+//             <div className="side-img">
 //               <img src="https://assets.bcci.tv/bcci/articles/1737120007_BCCI%20_%20Thumbnail.png" alt="BCCI invites proposals for Stadium Signage Production and Management Services for International Events, Domestic Events, IPL and WPL" />
 //             </div>
 //             <div className="news-text">
@@ -159,7 +159,7 @@ export default News;
 //             </div>
 //           </div>
 //           <div className="side-news">
-//             <div className="side-cover-img">
+//             <div className="side-img">
 //               <img src="https://assets.bcci.tv/bcci/articles/1749449963__AI_5796.JPG" alt="TATA IPL 2025 suspended for one week" />
 //             </div>
 //             <div className="news-text">
@@ -169,7 +169,7 @@ export default News;
 //             </div>
 //           </div>
 //           <div className="side-news">
-//             <div className="side-cover-img">
+//             <div className="side-img">
 //               <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="Board of Control for Cricket in India (BCCI) invites proposals for provision of videography and editing services" />
 //             </div>
 //             <div className="news-text">
@@ -179,7 +179,7 @@ export default News;
 //             </div>
 //           </div>
 //           <div className="side-news">
-//             <div className="side-cover-img">
+//             <div className="side-img">
 //               <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="BCCI announces fixtures for Australia Women's, Australia Men's A and South Africa Men's A team tours of India" />
 //             </div>
 //             <div className="news-text">
@@ -189,7 +189,7 @@ export default News;
 //             </div>
 //           </div>
 //           <div className="side-news">
-//             <div className="side-cover-img">
+//             <div className="side-img">
 //               <img src="https://assets.bcci.tv/bcci/articles/1749030081_BCCI_Thumbnail.png" alt="Junior Cricket Committee picks Rest of India squad" />
 //             </div>
 //             <div className="news-text">
@@ -199,7 +199,7 @@ export default News;
 //             </div>
 //           </div>
 //           <div className="side-news">
-//             <div className="side-cover-img">
+//             <div className="side-img">
 //               <img src="https://assets.bcci.tv/bcci/articles/1738052966_Umpire%20Ulhas%20Gandhe%20website%20Thumbnail%20high%20res.png" alt="Umpire Ulhas Gandhe's storied career hits 100th First-class match milestone " />
 //             </div>
 //             <div className="news-text">
@@ -209,7 +209,7 @@ export default News;
 //             </div>
 //           </div>
 //           <div className="side-news">
-//             <div className="side-cover-img">
+//             <div className="side-img">
 //               <img src="https://assets.bcci.tv/bcci/articles/1737442332_Anil%20Dandekar%20umpire%20website%20thumbnail.png" alt="A special century: Anil Dandekar set to umpire 100th First Class match as BCCI Umpire" />
 //             </div>
 //             <div className="news-text">

@@ -34,6 +34,66 @@ function Home() {
                         <div className="carousel-inner homecarousel-inner">
                             <div className="carousel-item active">
                                 <div className="img-wrapper">
+                                    <img src="https://brightcove.iplt20.com/output/input/6376103370112-1753424240.jpg" alt="Recap of Team India's memorable and historic tour of England" />
+                                </div>
+                                <div className="carousel-caption d-md-block">
+                                    <button>Video</button>
+                                    <h3>Recap of Team India's memorable and historic tour of England</h3>
+                                    <div className="d-flex align-items-center gap-4 pb-1">
+                                        <p>25th Jul, 2025</p>
+                                        <div className="d-flex align-items-center gap-2">
+                                            <FontAwesomeIcon icon={faEye} />
+                                            <p className='p-0'>5.5 k</p>
+                                        </div>
+                                        <IoShareSocialOutline className='share-icon' />
+                                    </div>
+                                </div>
+                                <div className="play">
+                                    <FaPlay />
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className="img-wrapper">
+                                    <img src="https://brightcove.iplt20.com/output/input/6375996373112-1753242439.jpg" alt="Harleen Deol interviews Centurion Harmanpreet Kaur & Pace Sensation Kranti Gaud" />
+                                </div>
+                                <div className="carousel-caption d-md-block">
+                                    <button>Video</button>
+                                    <h3>Harleen Deol interviews Centurion Harmanpreet Kaur & Pace Sensation Kranti Gaud</h3>
+                                    <div className="d-flex align-items-center gap-4 pb-1">
+                                        <p>23rd Jul, 2025</p>
+                                        <div className="d-flex align-items-center gap-2">
+                                            <FontAwesomeIcon icon={faEye} />
+                                            <p className='p-0'>5.3 k</p>
+                                        </div>
+                                        <IoShareSocialOutline className='share-icon' />
+                                    </div>
+                                </div>
+                                <div className="play">
+                                    <FaPlay />
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className="img-wrapper">
+                                    <img src="https://brightcove.iplt20.com/output/input/6375948472112-1753165800.jpg" alt="Rising against the odds: The Kranti Gaud Story" />
+                                </div>
+                                <div className="carousel-caption d-md-block">
+                                    <button>Video</button>
+                                    <h3>Rising against the odds: The Kranti Gaud Story</h3>
+                                    <div className="d-flex align-items-center gap-4 pb-1">
+                                        <p>13th Jul, 2025</p>
+                                        <div className="d-flex align-items-center gap-2">
+                                            <FontAwesomeIcon icon={faEye} />
+                                            <p className='p-0'>2.2</p>
+                                        </div>
+                                        <IoShareSocialOutline className='share-icon' />
+                                    </div>
+                                </div>
+                                <div className="play">
+                                    <FaPlay />
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className="img-wrapper">
                                     <img src="https://brightcove.iplt20.com/output/input/6375831777112-1752902654.jpg" alt="Lord's Calling: A special video call ft. Harmanpreet Kaur, Jemimah Rodrigues & Jhulan Goswami" />
                                 </div>
                                 <div className="carousel-caption d-md-block">
@@ -43,7 +103,7 @@ function Home() {
                                         <p>19th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>1.7 k</p>
+                                            <p className='p-0'>5.7 k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -63,7 +123,7 @@ function Home() {
                                         <p>17th Jun, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>2.2k</p>
+                                            <p className='p-0'>4.8k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -83,27 +143,7 @@ function Home() {
                                         <p>16th Jul, 2025</p>
                                         <div className="d-flex align-items-center gap-2">
                                             <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>2.7k</p>
-                                        </div>
-                                        <IoShareSocialOutline className='share-icon' />
-                                    </div>
-                                </div>
-                                <div className="play">
-                                    <FaPlay />
-                                </div>
-                            </div>   
-                            <div className="carousel-item">
-                                <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375684176112-1752605647.jpg" alt="Team India meets His Majesty" />
-                                </div>
-                                <div className="carousel-caption d-md-block">
-                                    <button>Video</button>
-                                    <h3>Team India meets His Majesty</h3>
-                                    <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>15th Jul, 2025</p>
-                                        <div className="d-flex align-items-center gap-2">
-                                            <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>28.5 k</p>
+                                            <p className='p-0'>5.7k</p>
                                         </div>
                                         <IoShareSocialOutline className='share-icon' />
                                     </div>
@@ -112,47 +152,6 @@ function Home() {
                                     <FaPlay />
                                 </div>
                             </div>
-                            <div className="carousel-item">
-                                <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375664243112-1752561310.jpg" alt="Ready to go ft. ODI joinees Pratika Rawal & Tejal Hasabnis" />
-                                </div>
-                                <div className="carousel-caption d-md-block">
-                                    <button>Video</button>
-                                    <h3>Ready to go ft. ODI joinees Pratika Rawal & Tejal Hasabnis</h3>
-                                    <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>15th Jul, 2025</p>
-                                        <div className="d-flex align-items-center gap-2">
-                                            <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>2.3 k</p>
-                                        </div>
-                                        <IoShareSocialOutline className='share-icon' />
-                                    </div>
-                                </div>
-                                <div className="play">
-                                    <FaPlay />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="img-wrapper">
-                                    <img src="https://brightcove.iplt20.com/output/input/6375603142112-1752388829.jpg" alt="Dressing Room BTS | Impact Fielder of the Series | England vs India T20I Series 2025" />
-                                </div>
-                                <div className="carousel-caption d-md-block">
-                                    <button>Video</button>
-                                    <h3>Dressing Room BTS | Impact Fielder of the Series | England vs India T20I Series 2025</h3>
-                                    <div className="d-flex align-items-center gap-4 pb-1">
-                                        <p>13th Jul, 2025</p>
-                                        <div className="d-flex align-items-center gap-2">
-                                            <FontAwesomeIcon icon={faEye} />
-                                            <p className='p-0'>2.2</p>
-                                        </div>
-                                        <IoShareSocialOutline className='share-icon' />
-                                    </div>
-                                </div>
-                                <div className="play">
-                                    <FaPlay />
-                                </div>
-                            </div>
-                            
                         </div>
                         <button className="carousel-control-prev z-3" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>

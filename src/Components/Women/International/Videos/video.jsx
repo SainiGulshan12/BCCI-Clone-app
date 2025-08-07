@@ -8,60 +8,60 @@ function Video() {
 
     const latestVideos = [
         {
+            img: "https://brightcove.iplt20.com/output/input/6376103370112-1753424240.jpg",
+            date: "25th Jul, 2025",
+            title: "Recap of Team India's memorable and historic tour o...",
+            views: "5.7k",
+            duration: "04:42 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6376003671112-1753254312.jpg",
+            date: "23rd Jul, 2025",
+            title: "This series win will give us a lot of confidence: Harmanpreet...",
+            views: "3.1k",
+            duration: "04:07 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6376001016112-1753254315.jpg",
+            date: "23rd Jul, 2025",
+            title: "Dressing Room BTS | Impact Fielder of the Series | England...",
+            views: "4.4 k",
+            duration: "04:04 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375996373112-1753242439.jpg",
+            date: "23rd Jul, 2025",
+            title: "Harleen Deol interviews Centurion Harmanpreet Kaur...",
+            views: "5.4 k",
+            duration: "03:33 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375948472112-1753165800.jpg",
+            date: "22nd Jul, 2025",
+            title: "Rising against the odds: The Kranti Gaud Story",
+            views: "5.8 k ",
+            duration: "05:19 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375923737112-1753116629.jpg",
+            date: "21th Jul, 2025",
+            title: "We are really excited about playing the decider: Sneh Rana",
+            views: "2.5 k",
+            duration: "5:10 mins"
+        },
+        {
             img: "https://brightcove.iplt20.com/output/input/6375869411112-1752994230.jpg",
             date: "20th Jul, 2025",
-            title: "Pitch side with the Captain Shubman Gill",
-            views: "22",
+            title: "We couldn’t adapt to the conditions quickly: Smriti...",
+            views: "2.2 k",
             duration: "03:17 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375831777112-1752902654.jpg",
             date: "19th Jul, 2025",
             title: "Lord's Calling: A special video call ft. Harmanpreet Kaur,...",
-            views: "1.6 k",
+            views: "6.6 k",
             duration: "01:50 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375809028112-1752859120.jpg",
-            date: "18th Jul, 2025",
-            title: "We are quite confident of winning the series: Pratika...",
-            views: "585",
-            duration: "05:47 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375739615112-1752736645.jpg",
-            date: "17th Jul, 2025",
-            title: "We had clear plans in the chase: Deepti Sharma",
-            views: "582",
-            duration: "03:08 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375737604112-1752734110.jpg",
-            date: "17th Jul, 2025",
-            title: "Team India's Scintillating Southampton Tales after ODI...",
-            views: "2.1 k ",
-            duration: "04:06 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375699511112-1752646229.jpg",
-            date: "16th Jul, 2025",
-            title: "The art of comebacks ft. Sneh Rana",
-            views: "2.5 k",
-            duration: "3:19 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375684176112-1752605647.jpg",
-            date: "15th Jul, 2025",
-            title: "Team India meets His Majesty",
-            views: "27.7k",
-            duration: "01:23 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375664243112-1752561310.jpg",
-            date: "15th Jun, 2025",
-            title: "Ready to go ft. ODI joinees Pratika Rawal & Tejal Hasabnis",
-            views: "2.1k",
-            duration: "02:19 mins"
         }
     ];
 
@@ -126,6 +126,34 @@ function Video() {
 
     const features = [
         {
+            img: "https://brightcove.iplt20.com/output/input/6376103370112-1753424240.jpg",
+            date: "25th Jul, 2025",
+            title: "Recap of Team India's memorable and historic tour o...",
+            views: "5.7k",
+            duration: "04:42 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6376001016112-1753254315.jpg",
+            date: "23rd Jul, 2025",
+            title: "Dressing Room BTS | Impact Fielder of the Series | England...",
+            views: "4.4 k",
+            duration: "04:04 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375996373112-1753242439.jpg",
+            date: "23rd Jul, 2025",
+            title: "Harleen Deol interviews Centurion Harmanpreet Kaur...",
+            views: "5.4 k",
+            duration: "03:33 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375948472112-1753165800.jpg",
+            date: "22nd Jul, 2025",
+            title: "Rising against the odds: The Kranti Gaud Story",
+            views: "5.8 k ",
+            duration: "05:19 mins"
+        },
+        {
             img: "https://brightcove.iplt20.com/output/input/6375831777112-1752902654.jpg",
             date: "19th Jul, 2025",
             title: "Lord's Calling: A special video call ft. Harmanpreet Kaur,...",
@@ -152,93 +180,65 @@ function Video() {
             title: "Team India meets His Majesty",
             views: "27.7k",
             duration: "01:23 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375664243112-1752561310.jpg",
-            date: "15th Jun, 2025",
-            title: "Ready to go ft. ODI joinees Pratika Rawal & Tejal Hasabnis",
-            views: "2.1k",
-            duration: "02:19 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375603142112-1752388829.jpg",
-            date: "13th Jul, 2025",
-            title: "Dressing Room BTS | Impact Fielder of the Series | England...",
-            views: "2.1 k",
-            duration: "01:30 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375576681112-1752309633.jpg",
-            date: "12th Jul, 2025",
-            title: "Sree Charani's story of passion, determination & talent",
-            views: "2.1k",
-            duration: "03:25 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375525130112-1752217512.jpg",
-            date: "11th Jun, 2025",
-            title: "Deepti Sharma reflects on her journey to 300 international...",
-            views: "2.3 k",
-            duration: "03:55 mins"
         }
     ];
 
     const pressConfrence = [
         {
+            img: "https://brightcove.iplt20.com/output/input/6376003671112-1753254312.jpg",
+            date: "23rd Jul, 2025",
+            title: "This series win will give us a lot of confidence: Harmanpreet...",
+            views: "3.1k",
+            duration: "04:07 mins"
+        },
+        {
+            img: "https://brightcove.iplt20.com/output/input/6375923737112-1753116629.jpg",
+            date: "21th Jul, 2025",
+            title: "We are really excited about playing the decider: Sneh Rana",
+            views: "2.5 k",
+            duration: "5:10 mins"
+        },
+        {
             img: "https://brightcove.iplt20.com/output/input/6375869411112-1752994230.jpg",
             date: "20th Jul, 2025",
             title: "We couldn’t adapt to the conditions quickly: Smriti...",
-            views: "55",
+            views: "2.2 k",
             duration: "03:17 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375809028112-1752859120.jpg",
             date: "18th Jul, 2025",
             title: "We are quite confident of winning the series: Pratika...",
-            views: "475",
+            views: "2.3 k",
             duration: "05:47 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375739615112-1752736645.jpg",
             date: "17th Jul, 2025",
             title: "We had clear plans in the chase: Deepti Sharma",
-            views: "588",
+            views: "2.2 k",
             duration: "03:08 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375663354112-1752559510.jpg",
             date: "15th Jul, 2025",
             title: "We want to carry the momentum from the T20I series:...",
-            views: "651",
+            views: "1.2 k",
             duration: "08:47 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375605468112-1752402311.jpg",
             date: "13th Jul, 2025",
             title: "Pleased with the result of the series: Amol Muzumdar",
-            views: "697",
+            views: "1.3 k",
             duration: "04:15 mins"
         },
         {
             img: "https://brightcove.iplt20.com/output/input/6375536325112-1752237316.jpg",
             date: "11th Jul, 2025",
             title: "Very happy with our fielding commitment and intensity...",
-            views: "747",
+            views: "1.2 k",
             duration: "04:35 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375477232112-1752134042.jpg",
-            date: "10th Jul, 2025",
-            title: "We are ticking the boxes as a team: Radha Yadav",
-            views: "823",
-            duration: "03:07 mins"
-        },
-        {
-            img: "https://brightcove.iplt20.com/output/input/6375377801112-1751989664.jpg",
-            date: "8th Jul, 2025",
-            title: "Our bowlers are capable of delivering across phases:...",
-            views: "918",
-            duration: "06:29 mins"
         }
     ];
 

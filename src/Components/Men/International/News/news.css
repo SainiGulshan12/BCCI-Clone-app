@@ -107,13 +107,13 @@
     cursor: pointer;
 }
 
-.side-news .side-cover-img {
+.side-news .side-img {
     height: 100px;
     width: 160px;
     margin-right: 10px;
 }
 
-.side-news .side-cover-img img {
+.side-news .side-img img {
     width: 100%;
     height: 100%;
     border-radius: 10px;

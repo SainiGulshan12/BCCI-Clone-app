@@ -1,3 +1,7 @@
+.domestic-honourscarousel .domestic-indicators .desk-btn{
+    width: 50%;
+}
+
 .domestic-honourscarousel .domestic-card-inner::-webkit-scrollbar {
     display: block;
 }
@@ -8,7 +12,6 @@
 
 .domestic-honourscarousel .domestic-card-inner .card-items .tropies {
     height: 180px;
-    margin: 20px 0 0 0;
 }
 
 .domestic-card-inner .card-items h5 {
@@ -19,7 +22,7 @@
 
 .domestic-card-inner .card-items .tropies img {
     height: 180px;
-    margin: 60px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 .domestic-card-inner .card-items .tropies p {
