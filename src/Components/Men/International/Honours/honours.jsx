@@ -43,16 +43,15 @@ function Honours() {
                     <button type="button" className='desk-btn' data-scroll="2365"></button>
 
                     <button type="button" className='mob-btn active' data-scroll="0" data-card="0"></button>
-                    <button type="button" className='mob-btn' data-scroll="342" data-card="1"></button>
-                    <button type="button" className='mob-btn' data-scroll="684" data-card="2"></button>
-                    <button type="button" className='mob-btn' data-scroll="1022" data-card="3"></button>
-                    <button type="button" className='mob-btn' data-scroll="1364" data-card="4"></button>
-                    <button type="button" className='mob-btn' data-scroll="1706" data-card="5"></button>
-                    <button type="button" className='mob-btn' data-scroll="2048" data-card="6"></button>
-                    <button type="button" className='mob-btn' data-scroll="2390" data-card="7"></button>
-                    <button type="button" className='mob-btn' data-scroll="2732" data-card="8"></button>
-                    <button type="button" className='mob-btn' data-scroll="3074" data-card="9"></button>
-                    <button type="button" className='mob-btn' data-scroll="3416" data-card="10"></button>
+                    <button type="button" className='mob-btn' data-scroll="300" data-card="1"></button>
+                    <button type="button" className='mob-btn' data-scroll="600" data-card="2"></button>
+                    <button type="button" className='mob-btn' data-scroll="900" data-card="3"></button>
+                    <button type="button" className='mob-btn' data-scroll="1200" data-card="4"></button>
+                    <button type="button" className='mob-btn' data-scroll="1500" data-card="5"></button>
+                    <button type="button" className='mob-btn' data-scroll="1800" data-card="6"></button>
+                    <button type="button" className='mob-btn' data-scroll="2100" data-card="7"></button>
+                    <button type="button" className='mob-btn' data-scroll="2400" data-card="8"></button>
+                    <button type="button" className='mob-btn' data-scroll="2700" data-card="9"></button>
                 </div>
                 <div className="card-inner d-flex overflow-auto" id="cardInner">
                     <div className="card-items d-flex flex-column active">

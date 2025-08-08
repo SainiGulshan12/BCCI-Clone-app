@@ -1,7 +1,14 @@
-@media(max-width:1024px) {
-    .card-top br{
+@media(min-width:1024px) {
+    .my-fixtures .card-center .teams .flag:last-child br {
         display: none;
     }
+}
+
+@media(max-width:1024px) {
+    .card-top br {
+        display: none;
+    }
+
     .first-navbar .left-nav a {
         margin-right: 0;
         align-self: center;
@@ -61,7 +68,6 @@
     }
 
     .card-details .card-center .teams .flag:last-child {
-        margin-right: 1.25rem;
         justify-content: end !important;
     }
 
@@ -90,6 +96,14 @@
     .card-details .card-center .date-timing.result {
         font-size: 15px;
         line-height: 30px;
+    }
+
+    .card-bottom .ground-time {
+        padding-top: .5rem !important;
+    }
+
+    .card-bottom span {
+        font-size: 11px;
     }
 
     .video-heading .video-head ul {

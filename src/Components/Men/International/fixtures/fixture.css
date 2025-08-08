@@ -206,7 +206,6 @@
 }
 
 .card-bottom b {
-    flex-shrink: 0;
     font-size: 14px;
 }
 

@@ -81,7 +81,7 @@ function Match() {
                         </div>
                         <div className="flag d-flex justify-content-end align-items-center w-50 pe-1">
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA A (WOMEN)</b>
+                          <b>INDIA A <br /> (WOMEN)</b>
                         </div>
                       </div>
                       <div className="date-timing text-center">
@@ -119,7 +119,7 @@ function Match() {
                         </div>
                         <div className="flag d-flex justify-content-end align-items-center w-50 pe-1">
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA A (WOMEN)</b>
+                          <b>INDIA A <br /> (WOMEN)</b>
                         </div>
                       </div>
                       <div className="date-timing text-center">
@@ -157,7 +157,7 @@ function Match() {
                         </div>
                         <div className="flag d-flex justify-content-end align-items-center w-50 pe-1">
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA A (WOMEN)</b>
+                          <b>INDIA A <br /> (WOMEN)</b>
                         </div>
                       </div>
                       <div className="date-timing text-center">
@@ -195,7 +195,7 @@ function Match() {
                         </div>
                         <div className="flag d-flex justify-content-end align-items-center w-50 pe-1">
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA A (WOMEN)</b>
+                          <b>INDIA A <br /> (WOMEN)</b>
                         </div>
                       </div>
                       <div className="date-timing text-center">
@@ -211,7 +211,7 @@ function Match() {
               </div>
             </div>
 
-             <div className="col px-0">
+            <div className="col px-0">
               <div className="card">
                 <div className="card-body p-0 d-flex">
                   <div className="text-strip odi">
@@ -233,7 +233,7 @@ function Match() {
                         </div>
                         <div className="flag d-flex justify-content-end align-items-center w-50 pe-1">
                           <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="india" />
-                          <b>INDIA A (WOMEN)</b>
+                          <b>INDIA A <br /> (WOMEN)</b>
                         </div>
                       </div>
                       <div className="date-timing text-center">
@@ -248,12 +248,57 @@ function Match() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
 
         <div className="tab-pane fade" id="pills-results" role="tabpanel" aria-labelledby="pills-results-tab" tabIndex={0}>
           <div className="my-fixtures row flex-nowrap" ref={resultsRef}>
+
+            <div className="col px-0">
+              <div className="card">
+                <div className="card-body p-0 d-flex">
+                  <div className="text-strip t20i">
+                    1st Twenty20
+                  </div>
+                  <div className="card-details">
+                    <div className="card-top text-uppercase align-content-center h-25">
+                      <h4>India A Women Tour Of Australia T20 Series 2025</h4>
+                    </div>
+                    <div className="card-center h-50 d-flex flex-column">
+                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
+                        <div className="flag d-flex justify-content-start align-items-center w-50">
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/CqCDnjhh7Y1729662126Australia.png" alt="Australia" />
+                          <div className="score">
+                            <span>Australia A (Women)</span>
+                            <p><b>137 - 6</b><span> (20.0 Ov)</span></p>
+                          </div>
+                        </div>
+                        <div className="vs">
+                          <img src={vs} alt="vs" />
+                        </div>
+                        <div className="flag d-flex align-items-center justify-content-end w-50">
+                          <div className="score text-end">
+                            <span>India A (Women)</span>
+                            <p><b>124 - 5</b><span> (20.0 Ov)</span></p>
+                          </div>
+                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="India U19" />
+                        </div>
+                      </div>
+                      <div className="date-timing result text-center">
+                        Australia A (Women) Won by 13 Runs 
+                      </div>
+                    </div>
+                    <div className="card-bottom h-25 px-3">
+                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
+                        <p>Great Barrier Reef Arena, Mackay</p>
+                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
+                      </div>
+                      <span>Thu,7 Aug 2025 | 13:30 IST</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div className="col px-0">
               <div className="card">
@@ -438,52 +483,6 @@ function Match() {
                         <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
                       </div>
                       <span>20 Jul - 23 Jul 2025 | 15:30 IST</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col px-0">
-              <div className="card">
-                <div className="card-body p-0 d-flex">
-                  <div className="text-strip odi">
-                    2nd ODI
-                  </div>
-                  <div className="card-details">
-                    <div className="card-top text-uppercase align-content-center h-25">
-                      <h4>India Women In England odi Series 2025</h4>
-                    </div>
-                    <div className="card-center h-50 d-flex flex-column">
-                      <div className="teams d-flex align-items-center justify-content-between px-2 ">
-                        <div className="flag d-flex justify-content-start align-items-center w-50">
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/xwbqvMolZz1729662687ECB.png" alt="England U19" />
-                          <div className="score">
-                            <span>England (Women)</span>
-                            <p><b>116 - 2</b><span> (21.0 Ov)</span></p>
-                          </div>
-                        </div>
-                        <div className="vs">
-                          <img src={vs} alt="vs" />
-                        </div>
-                        <div className="flag d-flex align-items-center justify-content-end w-50">
-                          <div className="score text-end">
-                            <span>India (Women)</span>
-                            <p><b>143 - 8</b><span> (29.0 Ov)</span></p>
-                          </div>
-                          <img src="https://scores.bcci.tv/matchcentre/teamlogos/Kct0pgqupN1726838081india.webp" alt="India U19" />
-                        </div>
-                      </div>
-                      <div className="date-timing result text-center">
-                        England (Women) Won by 8  Wickets  (D/L Method)
-                      </div>
-                    </div>
-                    <div className="card-bottom h-25 px-3">
-                      <div className="ground-time d-flex align-items-center pt-3 justify-content-between">
-                        <p>Lord's Cricket Ground, London</p>
-                        <b>Match Center <TiArrowRight className='ti-arrow-icon' /></b>
-                      </div>
-                      <span>Sat,19 Jul 2025 | 15:30 IST</span>
                     </div>
                   </div>
                 </div>
