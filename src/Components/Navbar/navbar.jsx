@@ -17,29 +17,22 @@ function Navbar() {
     const [toggleSearch, setToggleSearch] = useState(false);
     const [showSelectLanguage, setShowSelectLanguage] = useState(false);
     const [activeAnchorLink, setActiveAnchorLink] = useState(null);
+    const navigate = useNavigate();
+
+    const [activeTab, setactiveTab] = useState("/international/men");
+    const [isDomestic, setIsDomestic] = useState(false);
 
     const handleENClick = () => setShowSelectLanguage(true);
     const handleCloseLanguage = () => setShowSelectLanguage(false);
 
     const handletoggle = () => {
-        setIsDomestic(prev => !prev);
-    };
-
-    const [activeTab, setactiveTab] = useState("/international/men");
-    const [isDomestic, setIsDomestic] = useState(false);
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        navigate("/");
-        setactiveTab("/international/men");
-        setIsDomestic(false);
-    }, []);
-
-    const handleTabclick = (type) => {
-        const route = type === "international" ? "/international/men" : "/domestic/men";
-        setIsDomestic(type === "domestic");
-        setactiveTab(route);
-        navigate(route);
+        setIsDomestic(prev => {
+            const newValue = !prev;
+            const route = newValue ? "/domestic/men" : "/international/men";
+            setactiveTab(route);
+            navigate(route);
+            return newValue;
+        });
     };
 
     const handleMenclick = () => {
@@ -54,6 +47,13 @@ function Navbar() {
         setactiveTab(route);
         navigate(route);
     };
+
+    useEffect(() => {
+        navigate("/");
+        setactiveTab("/international/men");
+        setIsDomestic(false);
+    }, []);
+
 
     return (
         <>
@@ -173,11 +173,11 @@ function Navbar() {
                             </a>
                             <ul className="navbar-nav flex-row">
                                 <li className="nav-item">
-                                    <button className={`nav-link px-0 ${!isDomestic ? "active" : ""}`} onClick={() => handleTabclick('international')}> International
+                                    <button className={`nav-link px-0 ${!isDomestic ? "active" : ""}`} onClick={() => handletoggle('international')}> International
                                     </button>
                                 </li>
                                 <li className="nav-item">
-                                    <button className={`nav-link px-0 ${isDomestic ? "active" : ""}`} onClick={() => handleTabclick('domestic')}> Domestic
+                                    <button className={`nav-link px-0 ${isDomestic ? "active" : ""}`} onClick={() => handletoggle('domestic')}> Domestic
                                     </button>
                                 </li>
                             </ul>
