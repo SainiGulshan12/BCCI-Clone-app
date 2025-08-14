@@ -210,7 +210,7 @@ header .mob-match-type {
     letter-spacing: .8px;
 }
 
-.mob-match-type ul li:first-child {
+.mob-match-type ul li.active {
     color: var(--reddish-color);
     border-bottom: 3px solid var(--reddish-color);
 }

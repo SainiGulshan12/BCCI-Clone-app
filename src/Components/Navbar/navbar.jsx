@@ -235,8 +235,8 @@ function Navbar() {
                 {/* mobile menu match type  */}
                 <div className="mob-match-type">
                     <ul>
-                        <li>men</li>
-                        <li>women</li>
+                        <li className={activeTab === "/international/men" || activeTab === "/domestic/men" ? "active" : ""} onClick={handleMenclick}>men</li>
+                        <li className={activeTab === "/international/women" || activeTab === "/domestic/women" ? "active" : ""} onClick={handleWomenclick}>women</li>
                     </ul>
                 </div>
 
@@ -308,7 +308,7 @@ function Navbar() {
                         </>)}
                     </div>
                 </div>
-            </header>
+            </header >
         </>
     )
 }
