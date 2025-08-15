@@ -243,7 +243,7 @@ function Video() {
                 <div className="video-heading domestic-video-heading d-flex align-items-center justify-content-between">
                     <div className="video-head d-flex align-items-center justify-content-between px-3">
                         <h1>Videos</h1>
-                        <ul className="nav nav-pills" id="pills-tab" role="tablist">
+                        <ul className="nav nav-pills dom-vid-head-ul" id="pills-tab" role="tablist">
                             <li className="nav-item" role="presentation">
                                 <button className="nav-link active" id="pills-latest-tab" data-bs-toggle="pill" data-bs-target="#pills-latest" type="button" onClick={()=>setactiveTab('latest')}>Latest</button>
                             </li>

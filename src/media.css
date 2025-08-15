@@ -568,6 +568,11 @@
         bottom: -40px;
         gap: 15px;
     }
+    .video-heading .video-head .dom-vid-head-ul{
+        top: 67px;
+        gap: 15px;
+        position: absolute;
+    }
 
     .video-head ul li button {
         font-size: 14px;

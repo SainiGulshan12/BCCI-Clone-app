@@ -1,4 +1,5 @@
 .video-section {
+    position: relative;
     background-image: url(../../../../Assets/video-background.avif);
     background-position: top left 15px;
     background-repeat: no-repeat;
